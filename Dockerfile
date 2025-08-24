@@ -40,12 +40,17 @@ COPY environment.yml /app/environment.yml
 #RUN conda env create --name "${ENV_NAME}" -f "${ENV_FILE}" \
 #    && conda clean -afy
 
-RUN conda install -n base -y conda-libmamba-solver && \
-    conda config --system --set solver libmamba && \
-    conda config --system --set channel_priority strict && \
-    conda env create --name "${ENV_NAME}" -f "${ENV_FILE}" \
-        --override-channels -c conda-forge && \
-    conda clean -afy 
+#RUN conda install -n base -y conda-libmamba-solver && \
+#    conda config --system --set solver libmamba && \
+#    conda config --system --set channel_priority strict && \
+#    conda env create --name "${ENV_NAME}" -f "${ENV_FILE}" \
+#        --override-channels -c conda-forge && \
+#    conda clean -afy 
+
+RUN conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main && \
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r && \
+    conda env create --name "${ENV_NAME}" -f "${ENV_FILE}" && \
+    conda clean -afy
 
 
 # Set conda environment for all future steps
