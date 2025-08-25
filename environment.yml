@@ -1,4 +1,4 @@
-name: nyc_airbnb_dev
+name: d501-course-dev
 channels:
   - conda-forge
   - defaults
