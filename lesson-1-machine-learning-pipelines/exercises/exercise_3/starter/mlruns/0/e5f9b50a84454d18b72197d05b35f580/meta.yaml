@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/WGU/D501/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/e5f9b50a84454d18b72197d05b35f580/artifacts
+end_time: 1756687688354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5f9b50a84454d18b72197d05b35f580
+run_name: chill-swan-870
+run_uuid: e5f9b50a84454d18b72197d05b35f580
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756687672223
+status: 4
+tags: []
+user_id: Danty

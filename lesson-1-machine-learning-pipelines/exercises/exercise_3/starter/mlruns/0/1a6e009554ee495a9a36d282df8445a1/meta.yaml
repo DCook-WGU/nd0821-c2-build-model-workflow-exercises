@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/WGU/D501/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/1a6e009554ee495a9a36d282df8445a1/artifacts
+end_time: 1756687134835
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a6e009554ee495a9a36d282df8445a1
+run_name: gregarious-rook-397
+run_uuid: 1a6e009554ee495a9a36d282df8445a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756686994501
+status: 4
+tags: []
+user_id: Danty

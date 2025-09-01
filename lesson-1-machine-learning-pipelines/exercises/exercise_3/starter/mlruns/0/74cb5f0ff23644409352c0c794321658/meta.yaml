@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/WGU/D501/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/74cb5f0ff23644409352c0c794321658/artifacts
+end_time: 1756688209452
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74cb5f0ff23644409352c0c794321658
+run_name: rebellious-moth-853
+run_uuid: 74cb5f0ff23644409352c0c794321658
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756688191651
+status: 4
+tags: []
+user_id: Danty

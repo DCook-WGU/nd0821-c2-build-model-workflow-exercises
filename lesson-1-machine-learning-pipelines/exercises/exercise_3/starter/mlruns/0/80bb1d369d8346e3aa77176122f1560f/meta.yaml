@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/WGU/D501/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/80bb1d369d8346e3aa77176122f1560f/artifacts
+end_time: 1756687873341
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80bb1d369d8346e3aa77176122f1560f
+run_name: useful-cow-132
+run_uuid: 80bb1d369d8346e3aa77176122f1560f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756687855635
+status: 4
+tags: []
+user_id: Danty

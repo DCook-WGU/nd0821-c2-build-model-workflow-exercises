@@ -7,6 +7,6 @@ entry_points:
       hydra_options:
         description: Hydra parameters to override
         type: str
-        default: ''
-    command: >-
-      python main.py $(echo {hydra_options})
+        default: "main.experiment_name=dev"
+    command: >
+      python main.py {hydra_options}

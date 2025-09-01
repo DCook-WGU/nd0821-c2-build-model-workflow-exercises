@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/WGU/D501/nd0821-c2-build-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/e53238112ade46578fc912e64a9429b1/artifacts
+end_time: 1756687554423
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e53238112ade46578fc912e64a9429b1
+run_name: kindly-whale-66
+run_uuid: e53238112ade46578fc912e64a9429b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756687538948
+status: 4
+tags: []
+user_id: Danty
