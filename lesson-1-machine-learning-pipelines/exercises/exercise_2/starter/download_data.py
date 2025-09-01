@@ -21,7 +21,8 @@ def go(args):
     # destroyed at the end of the context, so we don't leave anything
     # behind and the file gets removed even in case of errors
     logger.info(f"Downloading {args.file_url} ...")
-    with tempfile.NamedTemporaryFile(mode='wb+') as fp:
+    #with tempfile.NamedTemporaryFile(mode='wb+') as fp:
+    with tempfile.NamedTemporaryFile(mode='wb+', delete=False) as fp: # Solution for temp file error: PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Danty\\AppData\\Local\\Temp\\tmpg5cjvclg'
 
         logger.info("Creating run exercise_2")
         with wandb.init(project="exercise_2", job_type="download_data") as run:
@@ -33,6 +34,7 @@ def go(args):
             # Make sure the file has been written to disk before uploading
             # to W&B
             fp.flush()
+            fp.close() # Solution for temp file error - PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Danty\\AppData\\Local\\Temp\\tmpg5cjvclg'
 
             logger.info("Creating artifact")
             artifact = wandb.Artifact(

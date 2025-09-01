@@ -18,7 +18,6 @@ def go(args):
     # YOUR CODE HERE
     run = wandb.init(
                         project="exercise_1",
-                        group="v0",
                         job_type="upload_file"
                     )   
 
@@ -33,7 +32,7 @@ def go(args):
     artifact = wandb.Artifact(
                                 name=args.artifact_name,
                                 type=args.artifact_type,
-                                description=args.artifact_desc,
+                                description=args.artifact_description,
                             )
 
 

@@ -1,0 +1,28 @@
+2025-08-25 16:46:34,011 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2025-08-25 16:46:34,011 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Configure stats pid to 29652
+2025-08-25 16:46:34,012 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Danty\.config\wandb\settings
+2025-08-25 16:46:34,012 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Loading settings from D:\WGU\D501\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_1\starter\wandb\settings
+2025-08-25 16:46:34,012 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-08-25 16:46:34,012 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-08-25 16:46:34,013 INFO    MainThread:29652 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py', 'program_abspath': 'D:\\WGU\\D501\\nd0821-c2-build-model-workflow-exercises\\lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py', 'program': 'D:\\WGU\\D501\\nd0821-c2-build-model-workflow-exercises\\lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py'}
+2025-08-25 16:46:34,013 INFO    MainThread:29652 [wandb_init.py:_log_setup():524] Logging user logs to D:\WGU\D501\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_1\starter\wandb\run-20250825_164633-7eiz2o57\logs\debug.log
+2025-08-25 16:46:34,015 INFO    MainThread:29652 [wandb_init.py:_log_setup():525] Logging internal logs to D:\WGU\D501\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_1\starter\wandb\run-20250825_164633-7eiz2o57\logs\debug-internal.log
+2025-08-25 16:46:34,015 INFO    MainThread:29652 [wandb_init.py:init():564] calling init triggers
+2025-08-25 16:46:34,015 INFO    MainThread:29652 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2025-08-25 16:46:34,016 INFO    MainThread:29652 [wandb_init.py:init():614] starting backend
+2025-08-25 16:46:34,016 INFO    MainThread:29652 [wandb_init.py:init():618] setting up manager
+2025-08-25 16:46:34,025 INFO    MainThread:29652 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-08-25 16:46:34,031 INFO    MainThread:29652 [wandb_init.py:init():624] backend started and connected
+2025-08-25 16:46:34,048 INFO    MainThread:29652 [wandb_init.py:init():716] updated telemetry
+2025-08-25 16:46:34,139 INFO    MainThread:29652 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2025-08-25 16:46:34,671 INFO    MainThread:29652 [wandb_run.py:_on_init():2254] communicating current version
+2025-08-25 16:46:34,929 INFO    MainThread:29652 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.21.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-08-25 16:46:34,929 INFO    MainThread:29652 [wandb_init.py:init():800] starting run threads in backend
+2025-08-25 16:46:40,310 INFO    MainThread:29652 [wandb_run.py:_console_start():2233] atexit reg
+2025-08-25 16:46:40,310 INFO    MainThread:29652 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2025-08-25 16:46:40,310 INFO    MainThread:29652 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2025-08-25 16:46:40,310 INFO    MainThread:29652 [wandb_run.py:_redirect():2178] Redirects installed.
+2025-08-25 16:46:40,311 INFO    MainThread:29652 [wandb_init.py:init():841] run started, returning control to user process
+2025-08-25 16:46:45,884 WARNING MsgRouterThr:29652 [router.py:message_loop():77] message_loop has been closed

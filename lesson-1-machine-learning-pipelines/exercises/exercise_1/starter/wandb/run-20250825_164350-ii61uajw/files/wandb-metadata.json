@@ -1,0 +1,62 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.10.18",
+    "heartbeatAt": "2025-08-25T20:43:51.705887",
+    "startedAt": "2025-08-25T20:43:50.781280",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_file",
+        "zen.txt",
+        "--artifact_name",
+        "zen_of_python",
+        "--artifact_type",
+        "text_file",
+        "--artifact_description",
+        "20 aphorisms about writing good python code"
+    ],
+    "state": "running",
+    "program": "D:\\WGU\\D501\\nd0821-c2-build-model-workflow-exercises\\lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py",
+    "codePathLocal": "upload_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines\\exercises\\exercise_1\\starter\\upload_artifact.py",
+    "git": {
+        "remote": "git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "0eb21bf9a934fd90b5bd8cddf7d7be9cfcdd5677"
+    },
+    "email": "dcoo230@wgu.edu",
+    "root": "D:/WGU/D501/nd0821-c2-build-model-workflow-exercises",
+    "host": "Caprikey_Dev",
+    "username": "Danty",
+    "executable": "D:\\CondaEnvs\\d501-course-dev\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3301.0,
+        "min": 0.0,
+        "max": 3301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3301.0,
+            "min": 0.0,
+            "max": 3301.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1862.9999961853027,
+            "used": 1172.8008003234863
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1070",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 63.90227508544922
+    }
+}

@@ -1,0 +1,13 @@
+2025-08-26 21:49:47,169 Creating artifact
+Traceback (most recent call last):
+  File "D:\WGU\D501\nd0821-c2-build-model-workflow-exercises\lesson-1-machine-learning-pipelines\exercises\exercise_2\starter\download_data.py", line 44, in go
+    artifact.add_file(fp.name, name=basename)
+  File "D:\CondaEnvs\d501-course-dev\lib\site-packages\wandb\sdk\artifacts\artifact.py", line 1186, in add_file
+    digest = md5_file_b64(local_path)
+  File "D:\CondaEnvs\d501-course-dev\lib\site-packages\wandb\sdk\lib\hashutil.py", line 44, in md5_file_b64
+    return _b64_from_hasher(_md5_file_hasher(*paths))
+  File "D:\CondaEnvs\d501-course-dev\lib\site-packages\wandb\sdk\lib\hashutil.py", line 55, in _md5_file_hasher
+    with path.open("rb") as f:
+  File "D:\CondaEnvs\d501-course-dev\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Danty\\AppData\\Local\\Temp\\tmpg5cjvclg'
