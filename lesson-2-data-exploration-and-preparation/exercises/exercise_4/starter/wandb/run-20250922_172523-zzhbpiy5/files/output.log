@@ -1,0 +1,2 @@
+Artifact uploaded, use this artifact in a run by adding:
+    artifact = run.use_artifact("dcoo230-western-governors-university/exercise_4/genres_mod.parquet:v0")

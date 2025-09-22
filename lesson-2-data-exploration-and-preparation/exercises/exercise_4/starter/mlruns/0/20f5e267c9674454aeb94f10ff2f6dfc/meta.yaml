@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/20f5e267c9674454aeb94f10ff2f6dfc/artifacts
+end_time: 1758561962913
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 20f5e267c9674454aeb94f10ff2f6dfc
+run_name: righteous-hog-750
+run_uuid: 20f5e267c9674454aeb94f10ff2f6dfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758561954963
+status: 4
+tags: []
+user_id: root
