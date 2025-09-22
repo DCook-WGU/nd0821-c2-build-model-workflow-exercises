@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/7b5a0423b7244cefa99e935ff1b3dd4e/artifacts
+end_time: 1758557043110
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b5a0423b7244cefa99e935ff1b3dd4e
+run_name: whimsical-auk-982
+run_uuid: 7b5a0423b7244cefa99e935ff1b3dd4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758556906743
+status: 4
+tags: []
+user_id: root

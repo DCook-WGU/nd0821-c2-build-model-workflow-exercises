@@ -1,0 +1,108 @@
+2025-09-22 16:21:35,857 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2025-09-22 16:21:35,858 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Configure stats pid to 6750
+2025-09-22 16:21:35,858 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2025-09-22 16:21:35,859 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Loading settings from /app/wandb/settings
+2025-09-22 16:21:35,859 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2025-09-22 16:21:35,861 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-09-22 16:21:35,861 INFO    MainThread:6750 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-09-22 16:21:35,863 INFO    MainThread:6750 [wandb_init.py:_log_setup():524] Logging user logs to /app/wandb/run-20250922_162135-rbixg046/logs/debug.log
+2025-09-22 16:21:35,864 INFO    MainThread:6750 [wandb_init.py:_log_setup():525] Logging internal logs to /app/wandb/run-20250922_162135-rbixg046/logs/debug-internal.log
+2025-09-22 16:21:35,864 INFO    MainThread:6750 [wandb_init.py:init():564] calling init triggers
+2025-09-22 16:21:35,865 INFO    MainThread:6750 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2025-09-22 16:21:35,866 INFO    MainThread:6750 [wandb_init.py:init():589] re-initializing run, found existing run on stack: pjf8jjoh
+2025-09-22 16:21:35,869 INFO    MainThread:6750 [wandb_run.py:_finish():1962] finishing run dcoo230-western-governors-university/exercise_4/pjf8jjoh
+2025-09-22 16:21:35,914 ERROR   MainThread:6750 [jupyter.py:save_history():500] Unable to save ipython session history:
+{'matches': ['id', 'if', 'import', 'in', 'input', 'int', 'is', 'isinstance', 'issubclass', 'iter'], 'cursor_end': 44, 'cursor_start': 43, 'metadata': {'_jupyter_types_experimental': [{'start': 43, 'end': 44, 'text': 'id', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'if', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'import', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'in', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'input', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'int', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'is', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'isinstance', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'issubclass', 'type': 'variable', 'signature': ''}, {'start': 43, 'end': 44, 'text': 'iter', 'type': 'variable', 'signature': ''}]}, 'status': 'ok'} is not valid under any of the given schemas
+
+Failed validating 'oneOf' in notebook['properties']['data']['additionalProperties']:
+
+On instance['data']['application/vnd.vscode.bg.execution.0.result']:
+{'cursor_end': 44,
+ 'cursor_start': 43,
+ 'matches': ['id',
+             'if',
+             'import',
+             'in',
+             'input',
+             'int',
+             'is',
+             'isinstance',
+             'issubclass',
+             'iter'],
+ 'metadata': {'_jupyter_types_experimental': [{'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'id',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'if',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'import',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'in',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'input',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'int',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'is',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'isinstance',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'issubclass',
+                                               'type': 'variable'},
+                                              {'end': 44,
+                                               'signature': '',
+                                               'start': 43,
+                                               'text': 'iter',
+                                               'type': 'variable'}]},
+ 'status': 'ok'}
+2025-09-22 16:21:35,916 INFO    MainThread:6750 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:21:35,917 INFO    MainThread:6750 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2025-09-22 16:21:35,917 INFO    MainThread:6750 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2025-09-22 16:21:35,919 INFO    MainThread:6750 [wandb_run.py:_restore():2185] restore
+2025-09-22 16:21:35,920 INFO    MainThread:6750 [wandb_run.py:_restore():2191] restore done
+2025-09-22 16:21:39,801 INFO    MainThread:6750 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2025-09-22 16:21:39,802 INFO    MainThread:6750 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2025-09-22 16:21:39,812 INFO    MainThread:6750 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2025-09-22 16:21:40,039 INFO    MainThread:6750 [wandb_init.py:init():614] starting backend
+2025-09-22 16:21:40,039 INFO    MainThread:6750 [wandb_init.py:init():618] setting up manager
+2025-09-22 16:21:40,047 INFO    MainThread:6750 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-09-22 16:21:40,048 INFO    MainThread:6750 [wandb_init.py:init():624] backend started and connected
+2025-09-22 16:21:40,066 INFO    MainThread:6750 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2025-09-22 16:21:40,067 INFO    MainThread:6750 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-09-22 16:21:40,067 INFO    MainThread:6750 [wandb_init.py:init():716] updated telemetry
+2025-09-22 16:21:40,192 INFO    MainThread:6750 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2025-09-22 16:21:41,813 INFO    MainThread:6750 [wandb_run.py:_on_init():2254] communicating current version
+2025-09-22 16:21:42,060 INFO    MainThread:6750 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.22.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-09-22 16:21:42,061 INFO    MainThread:6750 [wandb_init.py:init():800] starting run threads in backend
+2025-09-22 16:21:59,584 INFO    MainThread:6750 [wandb_run.py:_console_start():2233] atexit reg
+2025-09-22 16:21:59,585 INFO    MainThread:6750 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2025-09-22 16:21:59,586 INFO    MainThread:6750 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2025-09-22 16:21:59,586 INFO    MainThread:6750 [wandb_run.py:_redirect():2178] Redirects installed.
+2025-09-22 16:21:59,589 INFO    MainThread:6750 [wandb_init.py:init():841] run started, returning control to user process

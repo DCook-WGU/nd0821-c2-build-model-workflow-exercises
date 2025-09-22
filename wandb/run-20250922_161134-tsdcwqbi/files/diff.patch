@@ -1,0 +1,19 @@
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml
+index 6ad95cc..4df3d87 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml
+@@ -1,5 +1,5 @@
+ artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/artifacts
+-end_time: null
++end_time: 1758556755225
+ entry_point_name: ''
+ experiment_id: '0'
+ lifecycle_stage: active
+@@ -10,6 +10,6 @@ source_name: ''
+ source_type: 4
+ source_version: ''
+ start_time: 1758556620078
+-status: 1
++status: 4
+ tags: []
+ user_id: root

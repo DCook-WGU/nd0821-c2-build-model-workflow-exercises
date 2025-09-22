@@ -1,0 +1,109 @@
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+index e69de29..49f4bd1 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+@@ -0,0 +1,7 @@
++name: download_data
++conda_env: conda.yml
++
++entry_points:
++  main:
++    command: >-
++      jupyter-lab
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml
+new file mode 100644
+index 0000000..4df3d87
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/artifacts
++end_time: 1758556755225
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: 3635cb7c343e443e848d1bd57634654a
++run_name: bold-stoat-829
++run_uuid: 3635cb7c343e443e848d1bd57634654a
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1758556620078
++status: 4
++tags: []
++user_id: root
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.gitRepoURL b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..9b3883c
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.project.entryPoint b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.project.env b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.runName b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.runName
+new file mode 100644
+index 0000000..1573e2e
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.runName
+@@ -0,0 +1 @@
++bold-stoat-829
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.git.repoURL b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..9b3883c
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.name b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.name
+new file mode 100644
+index 0000000..0378aaf
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.name
+@@ -0,0 +1 @@
++file:///app#lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.type b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.user b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.user
+new file mode 100644
+index 0000000..93ca142
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/3635cb7c343e443e848d1bd57634654a/tags/mlflow.user
+@@ -0,0 +1 @@
++root
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/meta.yaml b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/meta.yaml
+new file mode 100644
+index 0000000..7beee1e
+--- /dev/null
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/meta.yaml
+@@ -0,0 +1,6 @@
++artifact_location: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0
++creation_time: 1758556620065
++experiment_id: '0'
++last_update_time: 1758556620065
++lifecycle_stage: active
++name: Default
