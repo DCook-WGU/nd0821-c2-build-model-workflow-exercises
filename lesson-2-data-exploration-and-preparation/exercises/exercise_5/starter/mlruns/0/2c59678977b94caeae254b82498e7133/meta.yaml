@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/2c59678977b94caeae254b82498e7133/artifacts
+end_time: 1758573989266
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c59678977b94caeae254b82498e7133
+run_name: rare-dog-29
+run_uuid: 2c59678977b94caeae254b82498e7133
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758573984782
+status: 4
+tags: []
+user_id: root

@@ -30,3 +30,11 @@ config: {}
 2025-09-22 17:32:45,603 INFO    MainThread:21673 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
 2025-09-22 17:32:46,437 INFO    MainThread:21673 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
 2025-09-22 17:32:46,438 INFO    MainThread:21673 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:35:42,570 INFO    MainThread:21673 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:35:43,894 INFO    MainThread:21673 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:35:44,724 INFO    MainThread:21673 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:35:44,724 INFO    MainThread:21673 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:37:49,293 INFO    MainThread:21673 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:37:49,706 INFO    MainThread:21673 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:37:50,624 INFO    MainThread:21673 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:37:50,624 INFO    MainThread:21673 [wandb_init.py:_pause_backend():437] pausing backend

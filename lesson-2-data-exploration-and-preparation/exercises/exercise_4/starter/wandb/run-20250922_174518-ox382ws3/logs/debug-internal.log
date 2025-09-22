@@ -1,0 +1,635 @@
+2025-09-22 17:45:18,630 INFO    StreamThr :25792 [internal.py:wandb_internal():86] W&B internal server running at pid: 25792, started at: 2025-09-22 17:45:18.627092
+2025-09-22 17:45:18,632 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status
+2025-09-22 17:45:18,793 INFO    WriterThread:25792 [datastore.py:open_for_write():87] open: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/run-ox382ws3.wandb
+2025-09-22 17:45:18,799 DEBUG   SenderThread:25792 [sender.py:send():378] send: header
+2025-09-22 17:45:19,047 DEBUG   SenderThread:25792 [sender.py:send():378] send: run
+2025-09-22 17:45:19,455 INFO    SenderThread:25792 [dir_watcher.py:__init__():211] watching files in: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files
+2025-09-22 17:45:19,455 INFO    SenderThread:25792 [sender.py:_start_run_threads():1099] run started: ox382ws3 with start time 1758563118.62765
+2025-09-22 17:45:19,480 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: check_version
+2025-09-22 17:45:19,480 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: check_version
+2025-09-22 17:45:19,673 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: run_start
+2025-09-22 17:45:19,674 DEBUG   HandlerThread:25792 [system_info.py:__init__():26] System info init
+2025-09-22 17:45:19,674 DEBUG   HandlerThread:25792 [system_info.py:__init__():41] System info init done
+2025-09-22 17:45:19,674 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:45:19,675 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:45:19,675 INFO    HandlerThread:25792 [system_monitor.py:probe():214] Collecting system info
+2025-09-22 17:45:19,676 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:45:19,679 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:45:19,680 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:45:19,681 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:45:19,691 DEBUG   HandlerThread:25792 [system_info.py:probe():150] Probing system
+2025-09-22 17:45:19,725 DEBUG   HandlerThread:25792 [system_info.py:_probe_git():135] Probing git
+2025-09-22 17:45:19,901 DEBUG   HandlerThread:25792 [system_info.py:_probe_git():143] Probing git done
+2025-09-22 17:45:19,901 DEBUG   HandlerThread:25792 [system_info.py:probe():198] Probing system done
+2025-09-22 17:45:19,902 DEBUG   HandlerThread:25792 [system_monitor.py:probe():223] {'os': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.12.11', 'heartbeatAt': '2025-09-22T17:45:19.691514', 'startedAt': '2025-09-22T17:45:18.537591', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'EDA.ipynb', 'codePathLocal': 'EDA.ipynb', 'root': '/app', 'git': {'remote': 'git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git', 'commit': '7e16fcdb934243134b71f04e9c501c78ff47c7d7'}, 'email': 'dcoo230@wgu.edu', 'host': 'b438a12722c6', 'username': 'root', 'executable': '/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3299.9959999999996, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}, {'current': 3299.996, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 25.69298553466797}}, 'memory': {'total': 31.294116973876953}}
+2025-09-22 17:45:19,902 INFO    HandlerThread:25792 [system_monitor.py:probe():224] Finished collecting system info
+2025-09-22 17:45:19,902 INFO    HandlerThread:25792 [system_monitor.py:probe():227] Publishing system info
+2025-09-22 17:45:19,903 DEBUG   HandlerThread:25792 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-09-22 17:45:20,461 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/conda-environment.yaml
+2025-09-22 17:45:21,926 DEBUG   HandlerThread:25792 [system_info.py:_save_conda():219] Saving conda packages done
+2025-09-22 17:45:21,927 DEBUG   HandlerThread:25792 [system_info.py:_save_code():44] Saving code
+2025-09-22 17:45:21,927 WARNING HandlerThread:25792 [system_info.py:_save_code():46] unable to save code -- program entry not found
+2025-09-22 17:45:21,928 DEBUG   HandlerThread:25792 [system_info.py:_save_patches():82] Saving git patches
+2025-09-22 17:45:22,477 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/conda-environment.yaml
+2025-09-22 17:45:22,479 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/diff.patch
+2025-09-22 17:45:27,120 ERROR   HandlerThread:25792 [system_info.py:_save_patches():123] Error generating diff: Command '['git', 'diff', '--submodule=diff', 'HEAD']' timed out after 5 seconds
+2025-09-22 17:45:27,121 DEBUG   HandlerThread:25792 [system_info.py:_save_patches():124] Saving git patches done
+2025-09-22 17:45:27,126 INFO    HandlerThread:25792 [system_monitor.py:probe():229] Finished publishing system info
+2025-09-22 17:45:27,129 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:27,129 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:45:27,130 DEBUG   SenderThread:25792 [sender.py:send():378] send: files
+2025-09-22 17:45:27,131 INFO    SenderThread:25792 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-09-22 17:45:27,278 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: python_packages
+2025-09-22 17:45:27,279 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: python_packages
+2025-09-22 17:45:27,281 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:45:27,282 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:45:27,285 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:45:27,478 DEBUG   SenderThread:25792 [sender.py:send():378] send: telemetry
+2025-09-22 17:45:27,524 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/requirements.txt
+2025-09-22 17:45:27,527 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/wandb-metadata.json
+2025-09-22 17:45:27,658 INFO    wandb-upload_0:25792 [upload_job.py:push():131] Uploaded file /tmp/tmpmq_0o9zowandb/8bzxnrp1-wandb-metadata.json
+2025-09-22 17:45:28,067 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:45:28,068 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:45:28,108 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:45:28,108 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:45:28,109 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:45:28,109 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:45:28,110 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:45:28,110 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:45:28,110 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:45:28,111 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:45:28,112 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:45:28,112 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:45:29,481 INFO    wandb-upload_0:25792 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpvas3zn36
+2025-09-22 17:45:29,745 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:45:29,746 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:45:29,746 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:45:29,747 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:45:29,749 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:45:29,751 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:45:29,753 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:45:29,755 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:45:30,085 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': None}}
+2025-09-22 17:45:30,086 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:45:30,087 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:30,398 DEBUG   SenderThread:25792 [sender.py:send():378] send: use_artifact
+2025-09-22 17:45:31,712 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:45:31,712 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:45:31,716 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:45:31,716 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:45:31,716 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:45:31,717 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:45:31,717 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:45:31,717 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:45:31,718 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:45:31,718 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:45:31,719 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:45:31,720 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:45:31,823 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'versionIndex': 0}}}
+2025-09-22 17:45:31,824 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:45:34,024 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:45:34,024 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:45:34,025 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:45:34,026 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:45:34,028 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:45:34,029 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:45:34,033 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:45:34,035 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:45:35,515 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:45:35,515 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:45:35,521 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:45:35,521 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:45:35,521 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:45:35,523 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:45:35,524 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:45:35,523 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:45:35,524 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:45:35,525 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:45:35,527 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:45:35,527 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:45:35,649 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'versionIndex': 0}}}
+2025-09-22 17:45:35,650 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:45:35,650 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:41,333 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:42,279 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:45:42,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:45:42,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:45:44,551 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:45:44,552 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:45:44,552 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:45:44,553 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:45:44,556 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:45:44,557 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:45:44,559 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:45:44,562 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:45:45,405 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:45:45,406 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:45:45,412 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:45:45,413 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:45:45,413 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:45:45,415 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:45:45,416 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:45:45,416 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:45:45,417 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:45:45,417 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:45:45,418 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:45:45,419 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:45:45,609 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'versionIndex': 0}}}
+2025-09-22 17:45:45,610 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:45:46,612 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:51,619 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:52,202 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/config.yaml
+2025-09-22 17:45:56,754 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:45:57,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:45:57,281 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:45:57,282 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:46:02,472 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:07,473 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:12,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:46:12,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:46:12,320 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:46:13,374 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:18,376 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:23,376 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:27,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:46:27,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:46:27,320 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:46:28,502 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:33,504 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:39,175 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:42,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:46:42,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:46:42,322 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:46:44,462 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:49,463 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:54,464 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:46:57,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:46:57,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:46:57,326 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:47:00,419 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:05,420 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:11,086 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:12,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:47:12,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:47:12,322 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:47:16,392 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:21,394 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:26,395 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:27,280 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:47:27,281 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:47:27,323 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:47:31,445 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:36,446 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:42,159 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:42,281 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:47:42,282 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:47:42,322 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:47:43,154 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:47:43,154 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:47:43,155 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:47:43,155 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:47:43,156 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:47:43,158 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:47:43,159 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:47:43,162 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:47:43,524 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:47:43,525 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:47:43,529 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:47:43,529 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:47:43,530 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:47:43,531 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:47:43,531 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:47:43,531 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:47:43,532 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:47:43,532 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:47:43,533 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:47:43,534 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:47:44,233 INFO    wandb-upload_0:25792 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpdlq1kzb4
+2025-09-22 17:47:44,950 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc1NzgyNA==', 'versionIndex': 0}}}
+2025-09-22 17:47:44,951 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:47:47,953 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:52,954 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:47:57,281 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:47:57,282 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:47:57,283 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:47:58,471 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:03,472 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:08,473 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:12,282 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:48:12,283 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:48:12,323 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:48:14,388 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:14,787 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:48:14,788 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:48:14,788 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:48:14,789 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:48:14,790 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:48:14,791 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:48:14,793 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:48:14,795 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:48:15,077 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:48:15,078 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:48:15,085 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:48:15,086 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:48:15,086 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:48:15,088 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:48:15,088 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:48:15,089 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:48:15,088 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:48:15,092 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:48:15,092 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:48:15,093 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:48:15,192 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'versionIndex': 1}}}
+2025-09-22 17:48:15,193 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:48:20,196 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:25,197 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:27,283 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:48:27,284 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:48:27,286 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:48:29,884 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:48:29,885 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:48:29,886 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:48:29,887 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:48:29,888 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:48:29,891 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:48:29,892 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:48:29,893 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:48:30,206 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:48:30,207 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:48:30,210 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:48:30,211 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:48:30,211 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:48:30,212 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:48:30,212 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:48:30,212 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:48:30,212 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:48:30,213 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:48:30,213 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:48:30,216 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:48:30,217 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:48:30,217 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:48:30,217 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:48:30,218 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:48:30,219 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:48:30,221 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:48:30,222 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:48:30,224 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:48:30,337 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'versionIndex': 1}}}
+2025-09-22 17:48:30,337 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:48:30,337 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:30,520 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:48:30,521 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:48:30,529 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:48:30,529 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:48:30,530 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:48:30,531 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:48:30,531 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:48:30,531 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:48:30,532 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:48:30,533 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:48:30,533 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:48:30,534 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:48:30,670 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'versionIndex': 1}}}
+2025-09-22 17:48:30,671 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:48:35,673 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:40,674 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:42,282 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:48:42,283 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:48:42,284 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:48:46,383 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:51,384 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:56,385 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:48:57,282 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:48:57,283 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:48:57,324 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:49:01,423 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:06,425 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:11,426 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:12,531 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:49:12,533 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:49:12,534 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:49:18,835 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:49:18,835 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:49:18,836 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:49:18,837 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:49:18,838 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:49:18,840 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:49:18,841 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:49:18,843 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:49:19,136 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:49:19,137 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:49:19,144 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:49:19,145 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:49:19,145 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:49:19,146 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:49:19,147 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:49:19,147 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:49:19,148 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:49:19,149 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:49:19,149 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:49:19,151 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:49:19,803 INFO    wandb-upload_0:25792 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpfi3k73zi
+2025-09-22 17:49:20,665 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc2Njc4NA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc2Mjg0OQ==', 'versionIndex': 1}}}
+2025-09-22 17:49:20,666 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:49:22,668 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:27,530 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:49:27,530 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:49:27,532 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:49:27,689 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:32,691 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:37,692 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:42,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:49:42,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:49:42,734 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:49:48,293 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:53,294 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:49:57,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:49:58,148 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:49:58,149 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:49:59,265 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:02,406 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: resume
+2025-09-22 17:50:02,406 INFO    HandlerThread:25792 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-09-22 17:50:02,406 INFO    HandlerThread:25792 [system_monitor.py:start():194] Starting system monitor
+2025-09-22 17:50:02,407 INFO    SystemMonitor:25792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-09-22 17:50:02,408 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started cpu monitoring
+2025-09-22 17:50:02,409 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started disk monitoring
+2025-09-22 17:50:02,410 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started memory monitoring
+2025-09-22 17:50:02,411 INFO    SystemMonitor:25792 [interfaces.py:start():190] Started network monitoring
+2025-09-22 17:50:02,684 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: log_artifact
+2025-09-22 17:50:02,685 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: log_artifact
+2025-09-22 17:50:02,694 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: pause
+2025-09-22 17:50:02,694 INFO    HandlerThread:25792 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-09-22 17:50:02,695 INFO    HandlerThread:25792 [system_monitor.py:finish():203] Stopping system monitor
+2025-09-22 17:50:02,696 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-09-22 17:50:02,697 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-09-22 17:50:02,697 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined cpu monitor
+2025-09-22 17:50:02,697 DEBUG   SystemMonitor:25792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-09-22 17:50:02,698 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined disk monitor
+2025-09-22 17:50:02,700 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined memory monitor
+2025-09-22 17:50:02,700 INFO    HandlerThread:25792 [interfaces.py:finish():202] Joined network monitor
+2025-09-22 17:50:02,816 INFO    SenderThread:25792 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc2Njc4NA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg0MzIwMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA3NDc2Njc4NA==', 'versionIndex': 2}}}
+2025-09-22 17:50:02,817 DEBUG   SenderThread:25792 [sender.py:send():378] send: stats
+2025-09-22 17:50:04,819 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:09,820 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:12,732 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:50:13,149 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:50:13,150 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:50:19,938 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:24,940 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:27,732 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:50:28,407 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:50:28,408 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:50:30,572 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:35,574 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:40,575 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:42,732 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:50:43,407 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:50:43,408 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:50:46,261 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:51,262 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:56,263 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:50:57,732 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:50:58,407 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:50:58,408 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:51:01,559 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:06,560 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:11,562 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:12,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:51:13,408 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:51:13,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:51:22,264 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:27,265 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:27,732 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:51:28,408 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:51:28,409 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:51:32,562 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:37,564 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:42,565 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:42,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:51:43,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:51:43,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:51:48,358 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:53,359 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:51:57,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:51:58,408 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:51:58,409 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:51:58,577 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:03,579 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:08,581 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:12,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:52:13,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:52:13,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:52:14,498 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:20,187 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:25,188 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:27,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:52:28,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:52:28,409 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:52:30,528 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:35,530 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:40,531 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:42,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:52:43,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:52:43,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:52:45,535 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:50,809 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:55,810 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:52:57,734 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:52:58,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:52:58,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:53:01,528 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:07,300 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:12,302 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:12,733 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:53:13,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:53:13,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:53:17,568 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:22,909 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:27,734 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:53:28,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:53:28,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:53:28,520 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:33,521 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:38,522 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:42,735 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:53:43,409 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:53:43,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:53:43,544 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:49,337 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:54,338 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:53:57,734 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:53:58,410 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:53:58,412 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:53:59,611 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:04,612 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:09,614 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:12,735 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:54:13,410 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:54:13,410 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:54:15,561 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:21,253 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:26,254 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:27,734 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:54:28,410 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: stop_status
+2025-09-22 17:54:28,411 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: stop_status
+2025-09-22 17:54:33,411 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:54:38,412 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:54:42,735 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:54:48,414 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:54:50,419 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:54,415 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:54:55,420 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:54:57,734 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:55:00,421 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:03,417 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:55:05,422 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:08,418 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:55:10,423 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:12,734 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: internal_messages
+2025-09-22 17:55:15,424 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:18,421 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:55:21,148 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:24,569 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: keepalive
+2025-09-22 17:55:26,149 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:27,798 DEBUG   SenderThread:25792 [sender.py:send():378] send: exit
+2025-09-22 17:55:27,799 INFO    SenderThread:25792 [sender.py:send_exit():585] handling exit code: 0
+2025-09-22 17:55:27,800 INFO    SenderThread:25792 [sender.py:send_exit():587] handling runtime: 14
+2025-09-22 17:55:27,811 INFO    SenderThread:25792 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-09-22 17:55:27,818 INFO    SenderThread:25792 [sender.py:send_exit():593] send defer
+2025-09-22 17:55:27,818 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,819 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 0
+2025-09-22 17:55:27,820 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,821 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-09-22 17:55:27,822 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 1
+2025-09-22 17:55:27,823 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,824 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 1
+2025-09-22 17:55:27,825 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,825 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-09-22 17:55:27,826 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 2
+2025-09-22 17:55:27,827 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,828 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 2
+2025-09-22 17:55:27,829 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,829 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-09-22 17:55:27,830 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 3
+2025-09-22 17:55:27,830 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,831 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 3
+2025-09-22 17:55:27,832 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,832 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-09-22 17:55:27,832 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 4
+2025-09-22 17:55:27,833 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,833 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 4
+2025-09-22 17:55:27,834 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,835 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-09-22 17:55:27,835 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 5
+2025-09-22 17:55:27,835 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,836 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 5
+2025-09-22 17:55:27,836 DEBUG   SenderThread:25792 [sender.py:send():378] send: summary
+2025-09-22 17:55:27,843 INFO    SenderThread:25792 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-09-22 17:55:27,847 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,847 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-09-22 17:55:27,848 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 6
+2025-09-22 17:55:27,848 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,849 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 6
+2025-09-22 17:55:27,849 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,850 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-09-22 17:55:27,850 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 7
+2025-09-22 17:55:27,850 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: status_report
+2025-09-22 17:55:27,851 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,852 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 7
+2025-09-22 17:55:27,852 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,853 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-09-22 17:55:27,853 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 8
+2025-09-22 17:55:27,854 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,854 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 8
+2025-09-22 17:55:27,855 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:27,855 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-09-22 17:55:27,856 INFO    SenderThread:25792 [job_builder.py:build():298] Attempting to build job artifact
+2025-09-22 17:55:27,866 INFO    SenderThread:25792 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-09-22 17:55:27,866 INFO    SenderThread:25792 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2025-09-22 17:55:27,873 INFO    SenderThread:25792 [job_builder.py:build():404] adding wandb-job metadata file
+2025-09-22 17:55:27,923 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 9
+2025-09-22 17:55:27,923 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:27,924 DEBUG   SenderThread:25792 [sender.py:send():378] send: artifact
+2025-09-22 17:55:27,924 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 9
+2025-09-22 17:55:28,327 INFO    Thread-12 :25792 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/wandb-summary.json
+2025-09-22 17:55:28,667 INFO    wandb-upload_0:25792 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpltaci2vt
+2025-09-22 17:55:28,682 INFO    wandb-upload_2:25792 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpoywo2x3v
+2025-09-22 17:55:28,684 INFO    wandb-upload_1:25792 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpi2fap34t
+2025-09-22 17:55:28,797 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: poll_exit
+2025-09-22 17:55:29,573 INFO    SenderThread:25792 [sender.py:send_artifact():1443] sent artifact job-git_github.com_DCook-WGU_nd0821-c2-build-model-workflow-exercises.git_EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MjA3NDc4MzAwMA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0OTg1MjY5Ng==', 'latestArtifact': None}}
+2025-09-22 17:55:29,574 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:29,575 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-09-22 17:55:29,575 INFO    SenderThread:25792 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-09-22 17:55:30,366 INFO    SenderThread:25792 [dir_watcher.py:finish():388] scan: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files
+2025-09-22 17:55:30,371 INFO    SenderThread:25792 [dir_watcher.py:finish():402] scan save: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/conda-environment.yaml conda-environment.yaml
+2025-09-22 17:55:30,382 INFO    SenderThread:25792 [dir_watcher.py:finish():402] scan save: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/config.yaml config.yaml
+2025-09-22 17:55:30,393 INFO    SenderThread:25792 [dir_watcher.py:finish():402] scan save: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/diff.patch diff.patch
+2025-09-22 17:55:30,406 INFO    SenderThread:25792 [dir_watcher.py:finish():402] scan save: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/requirements.txt requirements.txt
+2025-09-22 17:55:30,417 INFO    SenderThread:25792 [dir_watcher.py:finish():402] scan save: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/wandb-metadata.json wandb-metadata.json
+2025-09-22 17:55:30,417 INFO    SenderThread:25792 [dir_watcher.py:finish():402] scan save: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/wandb-summary.json wandb-summary.json
+2025-09-22 17:55:30,426 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 10
+2025-09-22 17:55:30,426 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: poll_exit
+2025-09-22 17:55:30,427 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:30,427 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 10
+2025-09-22 17:55:30,428 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:30,428 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-09-22 17:55:30,429 INFO    SenderThread:25792 [file_pusher.py:finish():172] shutting down file pusher
+2025-09-22 17:55:30,663 INFO    wandb-upload_0:25792 [upload_job.py:push():131] Uploaded file /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/conda-environment.yaml
+2025-09-22 17:55:30,712 INFO    wandb-upload_1:25792 [upload_job.py:push():131] Uploaded file /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/config.yaml
+2025-09-22 17:55:30,774 INFO    wandb-upload_2:25792 [upload_job.py:push():131] Uploaded file /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/requirements.txt
+2025-09-22 17:55:30,799 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: poll_exit
+2025-09-22 17:55:30,799 ERROR   MainThread:25792 [ipython.py:update():120] [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/wandb/sdk/lib/ipython.py", line 89, in display_widget
+    from IPython.core.display import display
+ImportError: cannot import name 'display' from 'IPython.core.display' (/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/IPython/core/display.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/wandb/sdk/lib/ipython.py", line 117, in update
+    display_widget(self._widget)
+  File "/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/wandb/sdk/lib/ipython.py", line 91, in display_widget
+    wandb.termwarn(
+  File "/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/wandb/errors/term.py", line 50, in termwarn
+    _log(
+  File "/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/opt/miniconda/envs/mlflow-8bf649cd2955bc15fd1445db5ca4780af5b6e189/lib/python3.12/site-packages/click/utils.py", line 321, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-09-22 17:55:30,800 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: poll_exit
+2025-09-22 17:55:30,891 INFO    wandb-upload_3:25792 [upload_job.py:push():131] Uploaded file /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/files/wandb-summary.json
+2025-09-22 17:55:31,092 INFO    Thread-11 (_thread_body):25792 [sender.py:transition_state():613] send defer: 11
+2025-09-22 17:55:31,093 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:31,093 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 11
+2025-09-22 17:55:31,094 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:31,094 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-09-22 17:55:31,095 INFO    SenderThread:25792 [file_pusher.py:join():178] waiting for file pusher
+2025-09-22 17:55:31,095 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 12
+2025-09-22 17:55:31,096 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:31,097 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 12
+2025-09-22 17:55:31,097 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:31,098 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-09-22 17:55:31,098 INFO    SenderThread:25792 [file_stream.py:finish():595] file stream finish called
+2025-09-22 17:55:31,441 INFO    SenderThread:25792 [file_stream.py:finish():599] file stream finish is done
+2025-09-22 17:55:31,442 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 13
+2025-09-22 17:55:31,442 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:31,443 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 13
+2025-09-22 17:55:31,444 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:31,444 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-09-22 17:55:31,444 INFO    SenderThread:25792 [sender.py:transition_state():613] send defer: 14
+2025-09-22 17:55:31,445 DEBUG   SenderThread:25792 [sender.py:send():378] send: final
+2025-09-22 17:55:31,445 DEBUG   HandlerThread:25792 [handler.py:handle_request():146] handle_request: defer
+2025-09-22 17:55:31,445 DEBUG   SenderThread:25792 [sender.py:send():378] send: footer
+2025-09-22 17:55:31,446 INFO    HandlerThread:25792 [handler.py:handle_request_defer():172] handle defer: 14
+2025-09-22 17:55:31,447 DEBUG   SenderThread:25792 [sender.py:send_request():405] send_request: defer
+2025-09-22 17:55:31,447 INFO    SenderThread:25792 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-09-22 17:55:33,773 WARNING StreamThr :25792 [internal.py:is_dead():414] Internal process exiting, parent pid 25674 disappeared
+2025-09-22 17:55:33,774 ERROR   StreamThr :25792 [internal.py:wandb_internal():152] Internal process shutdown.
+2025-09-22 17:55:34,447 INFO    HandlerThread:25792 [handler.py:finish():869] shutting down handler
+2025-09-22 17:55:34,447 INFO    WriterThread:25792 [datastore.py:close():296] close: /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/run-ox382ws3.wandb
+2025-09-22 17:55:34,448 INFO    SenderThread:25792 [sender.py:finish():1521] shutting down sender
+2025-09-22 17:55:34,449 INFO    SenderThread:25792 [file_pusher.py:finish():172] shutting down file pusher
+2025-09-22 17:55:34,449 INFO    SenderThread:25792 [file_pusher.py:join():178] waiting for file pusher

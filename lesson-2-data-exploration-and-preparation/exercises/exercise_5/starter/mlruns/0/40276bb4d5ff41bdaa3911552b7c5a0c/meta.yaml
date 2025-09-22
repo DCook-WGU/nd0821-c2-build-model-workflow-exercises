@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/40276bb4d5ff41bdaa3911552b7c5a0c/artifacts
+end_time: 1758573899178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40276bb4d5ff41bdaa3911552b7c5a0c
+run_name: sneaky-midge-713
+run_uuid: 40276bb4d5ff41bdaa3911552b7c5a0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758573894249
+status: 4
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/031e1432299d4430b769e8747d91223c/artifacts
+end_time: 1758563730692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 031e1432299d4430b769e8747d91223c
+run_name: shivering-owl-872
+run_uuid: 031e1432299d4430b769e8747d91223c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758563026194
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,68 @@
+2025-09-22 17:45:18,610 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2025-09-22 17:45:18,611 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Configure stats pid to 25674
+2025-09-22 17:45:18,611 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2025-09-22 17:45:18,611 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Loading settings from /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/settings
+2025-09-22 17:45:18,612 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2025-09-22 17:45:18,613 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-09-22 17:45:18,613 INFO    MainThread:25674 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-09-22 17:45:18,614 INFO    MainThread:25674 [wandb_init.py:_log_setup():526] Logging user logs to /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/logs/debug.log
+2025-09-22 17:45:18,614 INFO    MainThread:25674 [wandb_init.py:_log_setup():527] Logging internal logs to /app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250922_174518-ox382ws3/logs/debug-internal.log
+2025-09-22 17:45:18,615 INFO    MainThread:25674 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x757143c45ac0>
+2025-09-22 17:45:18,615 INFO    MainThread:25674 [wandb_init.py:init():566] calling init triggers
+2025-09-22 17:45:18,616 INFO    MainThread:25674 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2025-09-22 17:45:18,616 INFO    MainThread:25674 [wandb_init.py:init():616] starting backend
+2025-09-22 17:45:18,616 INFO    MainThread:25674 [wandb_init.py:init():620] setting up manager
+2025-09-22 17:45:18,625 INFO    MainThread:25674 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-09-22 17:45:18,626 INFO    MainThread:25674 [wandb_init.py:init():628] backend started and connected
+2025-09-22 17:45:18,648 INFO    MainThread:25674 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2025-09-22 17:45:18,792 INFO    MainThread:25674 [wandb_init.py:init():720] updated telemetry
+2025-09-22 17:45:19,045 INFO    MainThread:25674 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-09-22 17:45:19,479 INFO    MainThread:25674 [wandb_run.py:_on_init():2262] communicating current version
+2025-09-22 17:45:19,658 INFO    MainThread:25674 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.22.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-09-22 17:45:19,659 INFO    MainThread:25674 [wandb_init.py:init():804] starting run threads in backend
+2025-09-22 17:45:27,279 INFO    MainThread:25674 [wandb_run.py:_console_start():2241] atexit reg
+2025-09-22 17:45:27,280 INFO    MainThread:25674 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2025-09-22 17:45:27,281 INFO    MainThread:25674 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2025-09-22 17:45:27,281 INFO    MainThread:25674 [wandb_run.py:_redirect():2186] Redirects installed.
+2025-09-22 17:45:27,283 INFO    MainThread:25674 [wandb_init.py:init():847] run started, returning control to user process
+2025-09-22 17:45:27,283 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:45:28,071 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:45:28,071 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:45:29,743 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:45:30,867 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:45:31,715 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:45:31,715 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:45:34,022 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:45:34,601 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:45:35,519 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:45:35,520 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:45:44,549 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:45:44,589 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:45:45,408 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:45:45,409 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:47:43,153 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:47:43,287 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:47:43,528 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:47:43,528 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:48:14,786 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:48:14,794 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:48:15,084 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:48:15,084 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:48:29,883 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:48:29,894 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:48:30,209 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:48:30,210 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:48:30,215 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:48:30,275 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:48:30,527 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:48:30,528 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:49:18,834 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:49:18,843 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:49:19,142 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:49:19,143 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend
+2025-09-22 17:50:02,405 INFO    MainThread:25674 [wandb_init.py:_resume_backend():442] resuming backend
+2025-09-22 17:50:02,412 INFO    MainThread:25674 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2025-09-22 17:50:02,692 INFO    MainThread:25674 [wandb_init.py:_pause_backend():435] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2025-09-22 17:50:02,693 INFO    MainThread:25674 [wandb_init.py:_pause_backend():437] pausing backend

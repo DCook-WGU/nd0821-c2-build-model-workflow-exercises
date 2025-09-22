@@ -1,0 +1,26 @@
+wandb_version: 1
+
+path:
+  desc: null
+  value: genres_mod.parquet
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.18
+    cli_version: 0.16.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1758563008.940478
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.10.18
+      5: 0.16.0
+      8:
+      - 5
+      13: linux-x86_64

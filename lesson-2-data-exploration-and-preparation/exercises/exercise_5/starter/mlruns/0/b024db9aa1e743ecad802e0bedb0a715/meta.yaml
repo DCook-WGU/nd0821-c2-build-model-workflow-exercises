@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/b024db9aa1e743ecad802e0bedb0a715/artifacts
+end_time: 1758574118898
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b024db9aa1e743ecad802e0bedb0a715
+run_name: polite-grub-56
+run_uuid: b024db9aa1e743ecad802e0bedb0a715
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758574104253
+status: 4
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/a2fa29a838d94a6c8a37f2971fa04d08/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2fa29a838d94a6c8a37f2971fa04d08
+run_name: stately-wolf-469
+run_uuid: a2fa29a838d94a6c8a37f2971fa04d08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758562956458
+status: 1
+tags: []
+user_id: root
