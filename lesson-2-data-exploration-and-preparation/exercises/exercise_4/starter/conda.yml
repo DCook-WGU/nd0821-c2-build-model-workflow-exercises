@@ -9,5 +9,8 @@ dependencies:
   - pip=23.3.1
   - ydata-profiling=4.10.0
   - pyarrow=14.0.2
+  - ipywidgets>=8 # to fix issues with jupyerlab not working outside container
+  - jupyterlab_widgets # to fix issues with jupyerlab not working outside container
+  - tqdm # to fix issues with jupyerlab not working outside container
   - pip:
       - wandb==0.16.4
