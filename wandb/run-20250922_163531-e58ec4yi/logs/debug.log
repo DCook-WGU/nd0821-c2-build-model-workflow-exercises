@@ -42,3 +42,56 @@ config: {}
 2025-09-22 16:36:31,112 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
 2025-09-22 16:36:31,128 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
 2025-09-22 16:36:31,129 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:34,635 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:34,652 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:34,653 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:34,742 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:34,747 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:34,748 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:34,784 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:34,790 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:34,792 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:34,976 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:34,982 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:34,984 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:35,075 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:35,080 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:35,086 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:35,135 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:35,141 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:35,142 INFO    MainThread:12120 [wandb_init.py:_pause_backend():435] pausing backend
+2025-09-22 16:38:36,982 INFO    MainThread:12120 [wandb_init.py:_resume_backend():440] resuming backend
+2025-09-22 16:38:36,984 INFO    MainThread:12120 [wandb_run.py:_finish():1962] finishing run dcoo230-western-governors-university/exercise_4/e58ec4yi
+2025-09-22 16:38:37,207 ERROR   MainThread:12120 [jupyter.py:save_history():500] Unable to save ipython session history:
+{'matches': ['%%ruby', 'run', 'runfile'], 'cursor_end': 2, 'cursor_start': 0, 'metadata': {'_jupyter_types_experimental': [{'start': 0, 'end': 2, 'text': '%%ruby', 'type': 'magic', 'signature': ''}, {'start': 0, 'end': 2, 'text': 'run', 'type': 'variable', 'signature': ''}, {'start': 0, 'end': 2, 'text': 'runfile', 'type': 'variable', 'signature': ''}]}, 'status': 'ok'} is not valid under any of the given schemas
+
+Failed validating 'oneOf' in notebook['properties']['data']['additionalProperties']:
+
+On instance['data']['application/vnd.vscode.bg.execution.164.result']:
+{'cursor_end': 2,
+ 'cursor_start': 0,
+ 'matches': ['%%ruby', 'run', 'runfile'],
+ 'metadata': {'_jupyter_types_experimental': [{'end': 2,
+                                               'signature': '',
+                                               'start': 0,
+                                               'text': '%%ruby',
+                                               'type': 'magic'},
+                                              {'end': 2,
+                                               'signature': '',
+                                               'start': 0,
+                                               'text': 'run',
+                                               'type': 'variable'},
+                                              {'end': 2,
+                                               'signature': '',
+                                               'start': 0,
+                                               'text': 'runfile',
+                                               'type': 'variable'}]},
+ 'status': 'ok'}
+2025-09-22 16:38:37,208 INFO    MainThread:12120 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2025-09-22 16:38:37,209 INFO    MainThread:12120 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2025-09-22 16:38:37,210 INFO    MainThread:12120 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2025-09-22 16:38:37,212 INFO    MainThread:12120 [wandb_run.py:_restore():2185] restore
+2025-09-22 16:38:37,212 INFO    MainThread:12120 [wandb_run.py:_restore():2191] restore done
+2025-09-22 16:38:41,501 INFO    MainThread:12120 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2025-09-22 16:38:41,501 INFO    MainThread:12120 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2025-09-22 16:38:41,513 INFO    MainThread:12120 [wandb_run.py:_footer_sync_info():3719] logging synced files
