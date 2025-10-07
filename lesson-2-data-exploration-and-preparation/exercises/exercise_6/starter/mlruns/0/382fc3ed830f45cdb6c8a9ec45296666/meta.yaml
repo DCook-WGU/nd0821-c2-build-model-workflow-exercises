@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/382fc3ed830f45cdb6c8a9ec45296666/artifacts
+end_time: 1759869041101
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 382fc3ed830f45cdb6c8a9ec45296666
+run_name: bald-shrike-534
+run_uuid: 382fc3ed830f45cdb6c8a9ec45296666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759869022803
+status: 4
+tags: []
+user_id: root

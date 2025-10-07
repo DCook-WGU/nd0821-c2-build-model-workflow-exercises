@@ -1,0 +1,17 @@
+2025-10-07 20:30:32,982 Downloading and reading artifact
+2025-10-07 20:30:34,380 Splitting data into train and test
+Traceback (most recent call last):
+  File "/app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/run.py", line 126, in <module>
+    go(args)
+  File "/app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/run.py", line 34, in go
+    splits["train"], splits["test"] = train_test_split(
+                                      ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda/envs/mlflow-ecd34dd7c4d59631a93d3f9c3c0828d18c5e73d8/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 191, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda/envs/mlflow-ecd34dd7c4d59631a93d3f9c3c0828d18c5e73d8/lib/python3.12/inspect.py", line 3280, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda/envs/mlflow-ecd34dd7c4d59631a93d3f9c3c0828d18c5e73d8/lib/python3.12/inspect.py", line 3269, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'text_size'

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/a5c43a809a17440f889b3bf3c885ef0f/artifacts
+end_time: 1759868727324
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5c43a809a17440f889b3bf3c885ef0f
+run_name: spiffy-cow-800
+run_uuid: a5c43a809a17440f889b3bf3c885ef0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759868721090
+status: 4
+tags: []
+user_id: root

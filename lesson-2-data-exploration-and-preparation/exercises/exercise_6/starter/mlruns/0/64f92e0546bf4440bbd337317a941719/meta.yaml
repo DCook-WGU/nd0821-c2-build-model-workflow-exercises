@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/64f92e0546bf4440bbd337317a941719/artifacts
+end_time: 1759869089730
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64f92e0546bf4440bbd337317a941719
+run_name: skillful-vole-857
+run_uuid: 64f92e0546bf4440bbd337317a941719
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759869065843
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/72a0bc23cde641beb96e11406f155e2c/artifacts
+end_time: 1759868662387
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72a0bc23cde641beb96e11406f155e2c
+run_name: intrigued-frog-51
+run_uuid: 72a0bc23cde641beb96e11406f155e2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759868616108
+status: 4
+tags: []
+user_id: root
