@@ -20,6 +20,7 @@ def test_column_presence_and_type(data):
 
     # A dictionary with the column names as key and a function that verifies
     # the expected dtype for that column. We do not check strict dtypes (like
+
     # np.int32 vs np.int64) but general dtypes (like is_integer_dtype)
     required_columns = {
         "time_signature": pd.api.types.is_integer_dtype,
@@ -73,6 +74,10 @@ def test_class_names(data):
     # is true for every row. For example, df['one'].isin(['a','b','c']).all() is True if
     # all values in column "one" are contained in the list 'a', 'b', 'c'
 
+    assert data['genre'].isin(known_classes).all()
+
+
+
 
 def test_column_ranges(data):
 
@@ -95,4 +100,6 @@ def test_column_ranges(data):
         # YOUR CODE HERE: check that the values in the column col_name are within the expected range
         # HINT: look at the .between method of pandas, and then use .all() like in the previous
         # test
-        pass
+        #pass
+
+        assert data[col_name].between(minimum, maximum, inclusive='both').all()
