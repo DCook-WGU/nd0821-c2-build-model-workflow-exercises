@@ -105,6 +105,6 @@ def test_column_ranges(data):
         #pass
 
         assert data[col_name].dropna().between(minimum, maximum, inclusive='both').all(),(
-            f"Column {col_name} failed the test. )Should be between {minimum} and {maximum}"
+            f"Column {col_name} failed the test. Should be between {minimum} and {maximum}"
             f"instead min={data[col_name].min()} and max={data[col_name].max()}"
         )
