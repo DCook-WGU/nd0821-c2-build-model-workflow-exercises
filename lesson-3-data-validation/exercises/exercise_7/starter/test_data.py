@@ -74,7 +74,9 @@ def test_class_names(data):
     # is true for every row. For example, df['one'].isin(['a','b','c']).all() is True if
     # all values in column "one" are contained in the list 'a', 'b', 'c'
 
-    assert data['genre'].isin(known_classes).all()
+    assert data['genre'].isin(known_classes).all(), (
+        f"A row contains either a genre that is unapproved or missing"
+    )
 
 
 
@@ -102,4 +104,7 @@ def test_column_ranges(data):
         # test
         #pass
 
-        assert data[col_name].between(minimum, maximum, inclusive='both').all()
+        assert data[col_name].dropna().between(minimum, maximum, inclusive='both').all(),(
+            f"Column {col_name} failed the test. )Should be between {minimum} and {maximum}"
+            f"instead min={data[col_name].min()} and max={data[col_name].max()}"
+        )
