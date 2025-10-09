@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/f1e6d899f4984d779fa323b667762025/artifacts
+end_time: 1759958426197
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1e6d899f4984d779fa323b667762025
+run_name: charming-grouse-436
+run_uuid: f1e6d899f4984d779fa323b667762025
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759958404594
+status: 4
+tags: []
+user_id: root

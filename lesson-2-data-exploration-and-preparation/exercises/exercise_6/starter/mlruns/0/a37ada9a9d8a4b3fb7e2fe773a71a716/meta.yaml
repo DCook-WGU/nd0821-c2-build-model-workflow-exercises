@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/a37ada9a9d8a4b3fb7e2fe773a71a716/artifacts
+end_time: 1759969526569
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a37ada9a9d8a4b3fb7e2fe773a71a716
+run_name: tasteful-mouse-851
+run_uuid: a37ada9a9d8a4b3fb7e2fe773a71a716
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759969503699
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/f789343b6a254fd19ead5353a4ac7c45/artifacts
+end_time: 1759958145034
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f789343b6a254fd19ead5353a4ac7c45
+run_name: overjoyed-hawk-307
+run_uuid: f789343b6a254fd19ead5353a4ac7c45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759958092935
+status: 4
+tags: []
+user_id: root

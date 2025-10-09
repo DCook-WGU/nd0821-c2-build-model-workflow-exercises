@@ -1,0 +1,81 @@
+[1mcollected 2 items                                                                                                                                                                                                                                                        
+test_data.py::test_for_nan [31mFAILED
+test_data.py::test_kolmogorov_smirnov 0.9157517178427169
+0.9400173589614607
+nan
+[31mFAILED
+================================================================================================================================ FAILURES ================================================================================================================================
+[31m[1m______________________________________________________________________________________________________________________________ test_for_nan ______________________________________________________________________________________________________________________________
+data = (       Unnamed: 0.1  Unnamed: 0  danceability  energy  key  loudness  ...  duration_ms  time_signature       genre   ... NaN                            Lost Lands 2019                            Lost Lands 2019
+[12593 rows x 20 columns])
+    def test_for_nan(data):
+        sample1, sample2 = data
+        for col in sample1:
+>           assert sample1[col].notna().all(), f"NaNs found in sample1[{col}]"
+[31m[1mE           AssertionError: NaNs found in sample1[loudness]
+[31m[1mE           assert False
+[31m[1mE            +  where False = <bound method Series.all of 0         True\n1         True\n2        False\n3         True\n4        False\n         ...  \n29377     True\n29378     True\n29379     True\n29380     True\n29381     True\nName: loudness, Length: 29382, dtype: bool>()
+[31m[1mE            +    where <bound method Series.all of 0         True\n1         True\n2        False\n3         True\n4        False\n         ...  \n29377     True\n29378     True\n29379     True\n29380     True\n29381     True\nName: loudness, Length: 29382, dtype: bool> = 0         True\n1         True\n2        False\n3         True\n4        False\n         ...  \n29377     True\n29378     True\n29379     True\n29380     True\n29381     True\nName: loudness, Length: 29382, dtype: bool.all
+[31m[1mE            +      where 0         True\n1         True\n2        False\n3         True\n4        False\n         ...  \n29377     True\n29378     True\n29379     True\n29380     True\n29381     True\nName: loudness, Length: 29382, dtype: bool = <bound method Series.notna of 0       -3.916\n1       -4.414\n2          NaN\n3       -6.154\n4          NaN\n         ...  \n29377   -7.064\n29378   -1.629\n29379   -7.439\n29380   -6.949\n29381   -5.480\nName: loudness, Length: 29382, dtype: float64>()
+[31m[1mE            +        where <bound method Series.notna of 0       -3.916\n1       -4.414\n2          NaN\n3       -6.154\n4          NaN\n         ...  \n29377   -7.064\n29378   -1.629\n29379   -7.439\n29380   -6.949\n29381   -5.480\nName: loudness, Length: 29382, dtype: float64> = 0       -3.916\n1       -4.414\n2          NaN\n3       -6.154\n4          NaN\n         ...  \n29377   -7.064\n29378   -1.629\n29379   -7.439\n29380   -6.949\n29381   -5.480\nName: loudness, Length: 29382, dtype: float64.notna
+[31m[1mtest_data.py[39m[22m:28: AssertionError
+[31m[1m________________________________________________________________________________________________________________________ test_kolmogorov_smirnov _________________________________________________________________________________________________________________________
+data = (       Unnamed: 0.1  Unnamed: 0  danceability  energy  key  loudness  ...  duration_ms  time_signature       genre   ... NaN                            Lost Lands 2019                            Lost Lands 2019
+[12593 rows x 20 columns])
+    def test_kolmogorov_smirnov(data):
+        sample1, sample2 = data
+        numerical_columns = [
+            "danceability",
+            "energy",
+            "loudness",
+            "speechiness",
+            "acousticness",
+            "instrumentalness",
+            "liveness",
+            "valence",
+            "tempo",
+            "duration_ms"
+        ]
+        # Let's decide the Type I error probability (related to the False Positive Rate)
+        alpha = 0.05
+        # Bonferroni correction for multiple hypothesis testing
+        # (see my blog post on this topic to see where this comes from:
+        # https://towardsdatascience.com/precision-and-recall-trade-off-and-multiple-hypothesis-testing-family-wise-error-rate-vs-false-71a85057ca2b)
+        # https://medium.com/data-science/precision-and-recall-trade-off-and-multiple-hypothesis-testing-family-wise-error-rate-vs-false-71a85057ca2b # Correct link
+        alpha_prime = 1 - (1 - alpha)**(1 / len(numerical_columns))
+        for col in numerical_columns:
+            # Use the 2-sample KS test (scipy.stats.ks_2sample) on the column
+            # col
+            ts, p_value = scipy.stats.ks_2samp(
+               sample1[col],
+               sample2[col],
+               alternative='two-sided'
+            )  # YOUR CODE HERE
+            print(p_value)
+            # Add an assertion so that the test fails if p_value > alpha_prime
+            # YOUR CODE HERE
+>           assert p_value > alpha_prime, f"Statistical Significance (P-Value) of {p_value} is greater than allowed significance level threshold (alpha prime), {alpha_prime}"
+[31m[1mE           AssertionError: Statistical Significance (P-Value) of nan is greater than allowed significance level threshold (alpha prime), 0.005116196891823743
+[31m[1mE           assert nan > 0.005116196891823743
+[31m[1mtest_data.py[39m[22m:73: AssertionError
+[33m============================================================================================================================ warnings summary ============================================================================================================================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+../../../../../opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:90
+  /opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:90: SentryHubDeprecationWarning: `sentry_sdk.Hub` is deprecated and will be removed in a future major release. Please consult our 1.x to 2.x migration guide for details on how to migrate `Hub` usage to the new API: https://docs.sentry.io/platforms/python/migration/1.x-to-2.x
+    self.hub = sentry_sdk.Hub(client)
+../../../../../opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+../../../../../opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261
+  /opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/wandb/analytics/sentry.py:261: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+    scope.user = {"email": email}  # noqa
+../../../../../opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: 4 warnings
+test_data.py: 12 warnings
+  /opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    self.FromDatetime(datetime.datetime.utcnow())
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[36m[1m======================================================================================================================== short test summary info =========================================================================================================================
+[31mFAILED[39m test_data.py::[1mtest_for_nan[22m - AssertionError: NaNs found in sample1[loudness]
+[31mFAILED[39m test_data.py::[1mtest_kolmogorov_smirnov[22m - AssertionError: Statistical Significance (P-Value) of nan is greater than allowed significance level threshold (alpha prime), 0.005116196891823743
+[31m==================================================================================================================== [1m2 failed[39m[22m, [33m21 warnings[31m in 10.46s =====================================================================================================================

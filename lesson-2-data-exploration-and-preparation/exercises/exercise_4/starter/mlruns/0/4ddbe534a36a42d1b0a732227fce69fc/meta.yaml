@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/4ddbe534a36a42d1b0a732227fce69fc/artifacts
+end_time: 1759867584344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ddbe534a36a42d1b0a732227fce69fc
+run_name: illustrious-loon-568
+run_uuid: 4ddbe534a36a42d1b0a732227fce69fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759867415617
+status: 4
+tags: []
+user_id: root

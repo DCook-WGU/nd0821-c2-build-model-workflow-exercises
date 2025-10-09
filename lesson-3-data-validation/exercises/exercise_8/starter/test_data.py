@@ -20,6 +20,16 @@ def data():
     return sample1, sample2
 
 
+def test_for_nan(data):
+
+    sample1, sample2 = data
+
+    for col in sample1:
+        assert sample1[col].notna().all(), f"NaNs found in sample1[{col}]"
+    
+    for col in sample2:
+        assert sample2[col].notna().all(), f"NaNs found in sample2[{col}]"
+
 def test_kolmogorov_smirnov(data):
 
     sample1, sample2 = data
@@ -51,15 +61,13 @@ def test_kolmogorov_smirnov(data):
         # col
         ts, p_value = scipy.stats.ks_2samp(
            sample1[col],
-           sample2[col]
+           sample2[col],
            alternative='two-sided'
-
         )  # YOUR CODE HERE
 
+        print(p_value)
 
         # Add an assertion so that the test fails if p_value > alpha_prime
         # YOUR CODE HERE
 
-        assert (p_value > alpha_prime), (
-            f"Statistical Significance (P-Value) of {p_value} is greater than allowed significance level threshold (alpha prime), {alpha_prime}"
-        )
+        assert p_value > alpha_prime, f"Statistical Significance (P-Value) of {p_value} is greater than allowed significance level threshold (alpha prime), {alpha_prime}"

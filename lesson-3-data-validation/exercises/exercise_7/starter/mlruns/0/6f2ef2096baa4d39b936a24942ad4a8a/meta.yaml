@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/6f2ef2096baa4d39b936a24942ad4a8a/artifacts
+end_time: 1759969624775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f2ef2096baa4d39b936a24942ad4a8a
+run_name: honorable-shrimp-415
+run_uuid: 6f2ef2096baa4d39b936a24942ad4a8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759969603509
+status: 3
+tags: []
+user_id: root

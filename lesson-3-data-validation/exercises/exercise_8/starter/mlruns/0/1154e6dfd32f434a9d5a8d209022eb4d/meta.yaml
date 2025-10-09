@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/1154e6dfd32f434a9d5a8d209022eb4d/artifacts
+end_time: 1759969670514
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1154e6dfd32f434a9d5a8d209022eb4d
+run_name: calm-bass-333
+run_uuid: 1154e6dfd32f434a9d5a8d209022eb4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759969648246
+status: 4
+tags: []
+user_id: root

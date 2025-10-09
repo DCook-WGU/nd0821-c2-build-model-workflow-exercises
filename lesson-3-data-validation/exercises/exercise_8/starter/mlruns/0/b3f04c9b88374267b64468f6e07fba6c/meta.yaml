@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/b3f04c9b88374267b64468f6e07fba6c/artifacts
+end_time: 1759958329640
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3f04c9b88374267b64468f6e07fba6c
+run_name: masked-seal-171
+run_uuid: b3f04c9b88374267b64468f6e07fba6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759958306361
+status: 4
+tags: []
+user_id: root

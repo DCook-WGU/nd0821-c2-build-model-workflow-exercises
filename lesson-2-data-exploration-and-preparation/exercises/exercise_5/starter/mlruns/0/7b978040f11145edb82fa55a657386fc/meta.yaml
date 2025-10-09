@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/7b978040f11145edb82fa55a657386fc/artifacts
+end_time: 1759969018932
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b978040f11145edb82fa55a657386fc
+run_name: puzzled-wren-320
+run_uuid: 7b978040f11145edb82fa55a657386fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759969006160
+status: 3
+tags: []
+user_id: root

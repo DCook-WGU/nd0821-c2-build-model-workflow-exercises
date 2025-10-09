@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/4cc7eac4c94748a58c3fc1afe2c1c738/artifacts
+end_time: 1759968230436
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4cc7eac4c94748a58c3fc1afe2c1c738
+run_name: fortunate-loon-649
+run_uuid: 4cc7eac4c94748a58c3fc1afe2c1c738
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759968207366
+status: 4
+tags: []
+user_id: root

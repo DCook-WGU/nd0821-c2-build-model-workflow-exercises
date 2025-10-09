@@ -1,0 +1,38 @@
+{
+  "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "CPython 3.13.7",
+  "startedAt": "2025-10-09T00:16:53.459023Z",
+  "args": [
+    "--input_artifact",
+    "exercise_4/genres_mod.parquet:latest",
+    "--artifact_name",
+    "preprocessed_data.csv",
+    "--artifact_type",
+    "clean_data",
+    "--artifact_description",
+    "Data after preprocessing"
+  ],
+  "program": "/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py",
+  "codePath": "lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git",
+    "commit": "5283021821258860ac90492e2ca53ed3099648a1"
+  },
+  "email": "dcoo230@wgu.edu",
+  "root": "/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter",
+  "host": "b438a12722c6",
+  "executable": "/opt/miniconda/envs/mlflow-5b2682f6743372b4a6fd96be328b251c0b36fa93/bin/python",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "31065325568"
+    }
+  },
+  "memory": {
+    "total": "33601806336"
+  },
+  "writerId": "5xqgj3fmtl9pxwwv56uwqzlbs5bptj9x"
+}
