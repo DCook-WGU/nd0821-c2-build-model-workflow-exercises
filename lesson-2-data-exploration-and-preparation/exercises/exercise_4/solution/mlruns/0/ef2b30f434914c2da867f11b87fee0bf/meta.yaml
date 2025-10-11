@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/mlruns/0/ef2b30f434914c2da867f11b87fee0bf/artifacts
+end_time: 1760043965898
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef2b30f434914c2da867f11b87fee0bf
+run_name: efficient-squid-710
+run_uuid: ef2b30f434914c2da867f11b87fee0bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760043957376
+status: 4
+tags: []
+user_id: root

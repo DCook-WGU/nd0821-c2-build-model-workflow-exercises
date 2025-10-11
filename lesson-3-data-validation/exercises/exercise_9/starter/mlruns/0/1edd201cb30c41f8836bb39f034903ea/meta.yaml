@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/1edd201cb30c41f8836bb39f034903ea/artifacts
+end_time: 1759971135552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1edd201cb30c41f8836bb39f034903ea
+run_name: caring-flea-274
+run_uuid: 1edd201cb30c41f8836bb39f034903ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759971111930
+status: 4
+tags: []
+user_id: root

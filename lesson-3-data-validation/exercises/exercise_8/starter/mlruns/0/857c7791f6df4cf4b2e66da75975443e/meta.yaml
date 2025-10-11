@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/857c7791f6df4cf4b2e66da75975443e/artifacts
+end_time: 1760141058912
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 857c7791f6df4cf4b2e66da75975443e
+run_name: redolent-shark-509
+run_uuid: 857c7791f6df4cf4b2e66da75975443e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760141035046
+status: 3
+tags: []
+user_id: root

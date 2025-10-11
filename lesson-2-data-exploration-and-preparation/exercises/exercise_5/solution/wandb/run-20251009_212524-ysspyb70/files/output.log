@@ -1,0 +1,12 @@
+2025-10-09 21:25:26,820 Downloading artifact
+2025-10-09 21:25:27,920 Dropping duplicates
+2025-10-09 21:25:27,972 Fixing missing values
+/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/run.py:32: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  df['title'].fillna(value='', inplace=True)
+/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/run.py:33: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  df['song_name'].fillna(value='', inplace=True)
+2025-10-09 21:25:28,844 Logging artifact

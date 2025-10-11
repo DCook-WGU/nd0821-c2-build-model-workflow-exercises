@@ -3,6 +3,14 @@ import wandb
 import pandas as pd
 import scipy.stats
 
+import numpy as np
+
+def _clean_series(s: pd.Series) -> pd.Series:
+    # Convert to numeric (coerce bad strings), drop NaN/inf
+    s = pd.to_numeric(s, errors="coerce")
+    s = s.replace([np.inf, -np.inf], np.nan).dropna()
+    return s
+
 # This is global so all tests are collected under the same
 # run
 run = wandb.init(project="exercise_8", job_type="data_tests")
@@ -46,9 +54,14 @@ def test_kolmogorov_smirnov(data):
 
     for col in numerical_columns:
 
+        s1 = _clean_series(sample1[col])
+        s2 = _clean_series(sample2[col])
+
         ts, p_value = scipy.stats.ks_2samp(
-            sample1[col],
-            sample2[col],
+            #sample1[col],
+            s1,
+            #sample2[col],
+            s2,
             alternative='two-sided'
         )
 

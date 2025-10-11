@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/mlruns/0/daab8f0bccb54a849dcfbba522b448d2/artifacts
+end_time: 1760044200476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daab8f0bccb54a849dcfbba522b448d2
+run_name: delightful-tern-343
+run_uuid: daab8f0bccb54a849dcfbba522b448d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760044002554
+status: 4
+tags: []
+user_id: root

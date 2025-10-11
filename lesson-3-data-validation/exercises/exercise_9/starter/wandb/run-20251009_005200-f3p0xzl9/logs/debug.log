@@ -1,0 +1,29 @@
+2025-10-09 00:52:00,484 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2025-10-09 00:52:00,484 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Configure stats pid to 7174
+2025-10-09 00:52:00,485 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2025-10-09 00:52:00,485 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Loading settings from /app/lesson-3-data-validation/exercises/exercise_9/starter/wandb/settings
+2025-10-09 00:52:00,486 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2025-10-09 00:52:00,487 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-10-09 00:52:00,487 WARNING MainThread:7174 [wandb_setup.py:_flush():76] Could not save program above cwd: /opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest
+2025-10-09 00:52:00,488 INFO    MainThread:7174 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest', 'program': '/opt/miniconda/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest'}
+2025-10-09 00:52:00,488 INFO    MainThread:7174 [wandb_init.py:_log_setup():526] Logging user logs to /app/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20251009_005200-f3p0xzl9/logs/debug.log
+2025-10-09 00:52:00,489 INFO    MainThread:7174 [wandb_init.py:_log_setup():527] Logging internal logs to /app/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20251009_005200-f3p0xzl9/logs/debug-internal.log
+2025-10-09 00:52:00,490 INFO    MainThread:7174 [wandb_init.py:init():566] calling init triggers
+2025-10-09 00:52:00,490 INFO    MainThread:7174 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2025-10-09 00:52:00,490 INFO    MainThread:7174 [wandb_init.py:init():616] starting backend
+2025-10-09 00:52:00,491 INFO    MainThread:7174 [wandb_init.py:init():620] setting up manager
+2025-10-09 00:52:00,500 INFO    MainThread:7174 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-10-09 00:52:00,505 INFO    MainThread:7174 [wandb_init.py:init():628] backend started and connected
+2025-10-09 00:52:00,522 INFO    MainThread:7174 [wandb_init.py:init():720] updated telemetry
+2025-10-09 00:52:00,725 INFO    MainThread:7174 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-10-09 00:52:01,160 INFO    MainThread:7174 [wandb_run.py:_on_init():2262] communicating current version
+2025-10-09 00:52:01,345 INFO    MainThread:7174 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.22.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-10-09 00:52:01,345 INFO    MainThread:7174 [wandb_init.py:init():804] starting run threads in backend
+2025-10-09 00:52:05,561 INFO    MainThread:7174 [wandb_run.py:_console_start():2241] atexit reg
+2025-10-09 00:52:05,562 INFO    MainThread:7174 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2025-10-09 00:52:05,564 INFO    MainThread:7174 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2025-10-09 00:52:05,564 INFO    MainThread:7174 [wandb_run.py:_redirect():2186] Redirects installed.
+2025-10-09 00:52:05,566 INFO    MainThread:7174 [wandb_init.py:init():847] run started, returning control to user process
+2025-10-09 00:52:14,280 WARNING MsgRouterThr:7174 [router.py:message_loop():77] message_loop has been closed

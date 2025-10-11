@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/c214de52e48149cf9ad573afc50c80bf/artifacts
+end_time: 1760141413534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c214de52e48149cf9ad573afc50c80bf
+run_name: whimsical-koi-63
+run_uuid: c214de52e48149cf9ad573afc50c80bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760141390411
+status: 3
+tags: []
+user_id: root

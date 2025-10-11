@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/solution/mlruns/0/f561c44d298d4ce08f21d35c6442a4f4/artifacts
+end_time: 1760121206413
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f561c44d298d4ce08f21d35c6442a4f4
+run_name: respected-hound-424
+run_uuid: f561c44d298d4ce08f21d35c6442a4f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760121188390
+status: 4
+tags: []
+user_id: root

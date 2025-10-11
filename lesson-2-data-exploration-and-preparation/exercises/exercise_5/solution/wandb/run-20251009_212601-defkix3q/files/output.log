@@ -1,0 +1,23 @@
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/prepare_data.py:20: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  df['title'].fillna(value='', inplace=True)
+/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/prepare_data.py:21: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  df['song_name'].fillna(value='', inplace=True)
+Traceback (most recent call last):
+  File "/app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/prepare_data.py", line 34, in <module>
+    run.log_artifact(artifact)
+  File "/opt/miniconda/envs/mlops-dev-course/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/opt/miniconda/envs/mlops-dev-course/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/miniconda/envs/mlops-dev-course/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2868, in log_artifact
+    return self._log_artifact(
+  File "/opt/miniconda/envs/mlops-dev-course/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3007, in _log_artifact
+    self._assert_can_log_artifact(artifact)
+  File "/opt/miniconda/envs/mlops-dev-course/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3064, in _assert_can_log_artifact
+    raise ValueError(
+ValueError: Artifact preprocessed_data.csv already exists with type 'clean_data'; cannot create another with type 'dataset'

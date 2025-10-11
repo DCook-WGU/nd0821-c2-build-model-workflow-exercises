@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/c7522085de7343e2ab32ad17b977d426/artifacts
+end_time: 1760121134432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c7522085de7343e2ab32ad17b977d426
+run_name: stately-crow-971
+run_uuid: c7522085de7343e2ab32ad17b977d426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760121108880
+status: 4
+tags: []
+user_id: root

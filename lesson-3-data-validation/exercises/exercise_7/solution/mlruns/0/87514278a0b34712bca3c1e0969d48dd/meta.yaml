@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-3-data-validation/exercises/exercise_7/solution/mlruns/0/87514278a0b34712bca3c1e0969d48dd/artifacts
+end_time: 1760045579044
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87514278a0b34712bca3c1e0969d48dd
+run_name: rare-bird-99
+run_uuid: 87514278a0b34712bca3c1e0969d48dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760045562415
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/mlruns/0/3c1f928bfeda4276851283fa7e00cc9f/artifacts
+end_time: 1760045138726
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c1f928bfeda4276851283fa7e00cc9f
+run_name: skittish-slug-995
+run_uuid: 3c1f928bfeda4276851283fa7e00cc9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760045061903
+status: 3
+tags: []
+user_id: root

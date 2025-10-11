@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-2-data-exploration-and-preparation/exercises/exercise_6/solution/mlruns/0/c341e79eae3648e4a20d37848d8ef9e3/artifacts
+end_time: 1760121918263
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c341e79eae3648e4a20d37848d8ef9e3
+run_name: judicious-shoat-342
+run_uuid: c341e79eae3648e4a20d37848d8ef9e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760121896645
+status: 3
+tags: []
+user_id: root
