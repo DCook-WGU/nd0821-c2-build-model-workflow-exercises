@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/efec1899a64e4fda86aa0922bcd0a61d/artifacts
+end_time: 1760735557406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efec1899a64e4fda86aa0922bcd0a61d
+run_name: fortunate-foal-975
+run_uuid: efec1899a64e4fda86aa0922bcd0a61d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735523467
+status: 3
+tags: []
+user_id: root

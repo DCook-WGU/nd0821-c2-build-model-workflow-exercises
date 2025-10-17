@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/d52f85aeeebd447298ec5389777ca157/artifacts
+end_time: 1760735649841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d52f85aeeebd447298ec5389777ca157
+run_name: selective-stork-964
+run_uuid: d52f85aeeebd447298ec5389777ca157
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735627835
+status: 3
+tags: []
+user_id: root

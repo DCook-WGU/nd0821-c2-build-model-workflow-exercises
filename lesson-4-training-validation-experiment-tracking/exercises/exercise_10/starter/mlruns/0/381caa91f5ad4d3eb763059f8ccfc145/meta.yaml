@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/381caa91f5ad4d3eb763059f8ccfc145/artifacts
+end_time: 1760735792404
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 381caa91f5ad4d3eb763059f8ccfc145
+run_name: awesome-zebra-845
+run_uuid: 381caa91f5ad4d3eb763059f8ccfc145
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735766272
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/61b1c30afb084fbc9cd9e1d36a77b3d4/artifacts
+end_time: 1760732120945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61b1c30afb084fbc9cd9e1d36a77b3d4
+run_name: big-mouse-595
+run_uuid: 61b1c30afb084fbc9cd9e1d36a77b3d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760732116359
+status: 4
+tags: []
+user_id: root

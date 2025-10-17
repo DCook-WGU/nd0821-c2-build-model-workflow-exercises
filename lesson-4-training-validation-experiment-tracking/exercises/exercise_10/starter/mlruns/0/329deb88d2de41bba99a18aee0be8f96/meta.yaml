@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/329deb88d2de41bba99a18aee0be8f96/artifacts
+end_time: 1760735720610
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 329deb88d2de41bba99a18aee0be8f96
+run_name: delightful-midge-843
+run_uuid: 329deb88d2de41bba99a18aee0be8f96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735694685
+status: 3
+tags: []
+user_id: root

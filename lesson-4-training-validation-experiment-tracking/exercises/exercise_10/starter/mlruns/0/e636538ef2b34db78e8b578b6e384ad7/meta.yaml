@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/e636538ef2b34db78e8b578b6e384ad7/artifacts
+end_time: 1760734652916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e636538ef2b34db78e8b578b6e384ad7
+run_name: big-shrike-265
+run_uuid: e636538ef2b34db78e8b578b6e384ad7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760734646856
+status: 4
+tags: []
+user_id: root

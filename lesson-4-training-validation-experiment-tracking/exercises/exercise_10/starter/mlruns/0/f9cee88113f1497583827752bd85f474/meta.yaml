@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/f9cee88113f1497583827752bd85f474/artifacts
+end_time: 1760735831542
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9cee88113f1497583827752bd85f474
+run_name: silent-newt-314
+run_uuid: f9cee88113f1497583827752bd85f474
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735799233
+status: 3
+tags: []
+user_id: root

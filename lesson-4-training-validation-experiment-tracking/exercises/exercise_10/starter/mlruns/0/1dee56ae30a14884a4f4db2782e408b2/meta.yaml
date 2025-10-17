@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/1dee56ae30a14884a4f4db2782e408b2/artifacts
+end_time: 1760735431272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1dee56ae30a14884a4f4db2782e408b2
+run_name: polite-frog-512
+run_uuid: 1dee56ae30a14884a4f4db2782e408b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735332066
+status: 3
+tags: []
+user_id: root

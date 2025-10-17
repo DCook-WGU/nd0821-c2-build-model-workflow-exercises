@@ -19,7 +19,7 @@
   },
   "postCreateCommand": "git config --global user.name 'DCook-WGU' && git config --global user.email 'dcoo230@wgu.edu'",
   "remoteUser": "root",
-  "continerName": "mlops-course",
+  "containerName": "mlops-course",
   "extensions": [
     "ms-python.python",
     "ms-toolsai.jupyter",

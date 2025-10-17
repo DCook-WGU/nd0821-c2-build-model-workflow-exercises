@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/7df566d980ce4d05978e1341b2aca382/artifacts
+end_time: 1760734653569
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7df566d980ce4d05978e1341b2aca382
+run_name: trusting-dog-111
+run_uuid: 7df566d980ce4d05978e1341b2aca382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760734563594
+status: 4
+tags: []
+user_id: root

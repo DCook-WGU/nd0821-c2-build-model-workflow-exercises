@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/fc400480921d475fbcd144f304bc4d7d/artifacts
+end_time: 1760735900980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc400480921d475fbcd144f304bc4d7d
+run_name: caring-smelt-306
+run_uuid: fc400480921d475fbcd144f304bc4d7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735863649
+status: 3
+tags: []
+user_id: root

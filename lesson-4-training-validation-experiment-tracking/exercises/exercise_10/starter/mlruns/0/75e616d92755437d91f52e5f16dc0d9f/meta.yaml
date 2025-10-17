@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/75e616d92755437d91f52e5f16dc0d9f/artifacts
+end_time: 1760735523013
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75e616d92755437d91f52e5f16dc0d9f
+run_name: bemused-mule-831
+run_uuid: 75e616d92755437d91f52e5f16dc0d9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735493103
+status: 3
+tags: []
+user_id: root

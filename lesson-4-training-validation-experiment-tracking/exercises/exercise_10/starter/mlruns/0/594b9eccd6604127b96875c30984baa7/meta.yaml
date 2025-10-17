@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/594b9eccd6604127b96875c30984baa7/artifacts
+end_time: 1760735857296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 594b9eccd6604127b96875c30984baa7
+run_name: rumbling-chimp-135
+run_uuid: 594b9eccd6604127b96875c30984baa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735824089
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/9f5326bfbc374c15b8dce41ceffe57d1/artifacts
+end_time: 1760735670462
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f5326bfbc374c15b8dce41ceffe57d1
+run_name: useful-slug-949
+run_uuid: 9f5326bfbc374c15b8dce41ceffe57d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735650762
+status: 3
+tags: []
+user_id: root

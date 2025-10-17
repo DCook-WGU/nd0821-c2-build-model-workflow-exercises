@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/a3e53e09847b4119adc2ccbd9bb7021e/artifacts
+end_time: 1760735328437
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a3e53e09847b4119adc2ccbd9bb7021e
+run_name: zealous-kite-995
+run_uuid: a3e53e09847b4119adc2ccbd9bb7021e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735286257
+status: 3
+tags: []
+user_id: root

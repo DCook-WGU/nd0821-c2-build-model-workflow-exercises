@@ -1,0 +1,105 @@
+{
+    "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.23",
+    "heartbeatAt": "2025-10-17T21:14:39.852641",
+    "startedAt": "2025-10-17T21:14:36.956389",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/multirun/2025-10-17/21-13-40/8/random_forest_config.json"
+    ],
+    "state": "running",
+    "program": "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "run.py",
+    "git": {
+        "remote": "git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": null
+    },
+    "email": "dcoo230@wgu.edu",
+    "root": "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest",
+    "host": "8d43fa3ea92d",
+    "username": "root",
+    "executable": "/opt/miniconda/envs/mlflow-d2c47ea17a88db8ed7250487b447db94edbf3f97/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3299.993,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3299.993,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 28.379199981689453
+        }
+    },
+    "memory": {
+        "total": 31.294132232666016
+    }
+}

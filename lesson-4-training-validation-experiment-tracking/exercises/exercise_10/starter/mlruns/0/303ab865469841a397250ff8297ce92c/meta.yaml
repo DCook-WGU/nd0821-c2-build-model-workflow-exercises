@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/303ab865469841a397250ff8297ce92c/artifacts
+end_time: 1760735857218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 303ab865469841a397250ff8297ce92c
+run_name: bustling-doe-516
+run_uuid: 303ab865469841a397250ff8297ce92c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735829638
+status: 3
+tags: []
+user_id: root

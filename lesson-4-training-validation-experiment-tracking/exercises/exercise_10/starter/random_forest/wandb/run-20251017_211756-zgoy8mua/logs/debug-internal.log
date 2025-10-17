@@ -1,0 +1,215 @@
+2025-10-17 21:17:56,385 INFO    StreamThr :79415 [internal.py:wandb_internal():86] W&B internal server running at pid: 79415, started at: 2025-10-17 21:17:56.382913
+2025-10-17 21:17:56,388 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: status
+2025-10-17 21:17:56,399 INFO    WriterThread:79415 [datastore.py:open_for_write():87] open: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/run-zgoy8mua.wandb
+2025-10-17 21:17:56,402 DEBUG   SenderThread:79415 [sender.py:send():378] send: header
+2025-10-17 21:17:56,465 DEBUG   SenderThread:79415 [sender.py:send():378] send: run
+2025-10-17 21:17:57,042 INFO    SenderThread:79415 [dir_watcher.py:__init__():211] watching files in: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files
+2025-10-17 21:17:57,044 INFO    SenderThread:79415 [sender.py:_start_run_threads():1099] run started: zgoy8mua with start time 1760735876.383723
+2025-10-17 21:17:57,080 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: check_version
+2025-10-17 21:17:57,081 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: check_version
+2025-10-17 21:17:57,299 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: run_start
+2025-10-17 21:17:57,300 DEBUG   HandlerThread:79415 [system_info.py:__init__():26] System info init
+2025-10-17 21:17:57,301 DEBUG   HandlerThread:79415 [system_info.py:__init__():41] System info init done
+2025-10-17 21:17:57,301 INFO    HandlerThread:79415 [system_monitor.py:start():194] Starting system monitor
+2025-10-17 21:17:57,302 INFO    SystemMonitor:79415 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-10-17 21:17:57,302 INFO    HandlerThread:79415 [system_monitor.py:probe():214] Collecting system info
+2025-10-17 21:17:57,303 INFO    SystemMonitor:79415 [interfaces.py:start():190] Started cpu monitoring
+2025-10-17 21:17:57,305 INFO    SystemMonitor:79415 [interfaces.py:start():190] Started disk monitoring
+2025-10-17 21:17:57,307 INFO    SystemMonitor:79415 [interfaces.py:start():190] Started memory monitoring
+2025-10-17 21:17:57,308 INFO    SystemMonitor:79415 [interfaces.py:start():190] Started network monitoring
+2025-10-17 21:17:57,320 DEBUG   HandlerThread:79415 [system_info.py:probe():150] Probing system
+2025-10-17 21:17:57,349 DEBUG   HandlerThread:79415 [system_info.py:_probe_git():135] Probing git
+2025-10-17 21:17:57,403 ERROR   HandlerThread:79415 [gitlib.py:root():92] git root error: Cmd('git') failed due to: exit code(128)
+  cmdline: git rev-parse --show-toplevel
+  stderr: 'fatal: detected dubious ownership in repository at '/app'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /app'
+2025-10-17 21:17:57,403 DEBUG   HandlerThread:79415 [system_info.py:_probe_git():143] Probing git done
+2025-10-17 21:17:57,404 DEBUG   HandlerThread:79415 [system_info.py:probe():198] Probing system done
+2025-10-17 21:17:57,404 DEBUG   HandlerThread:79415 [system_monitor.py:probe():223] {'os': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.23', 'heartbeatAt': '2025-10-17T21:17:57.320396', 'startedAt': '2025-10-17T21:17:56.327628', 'docker': None, 'cuda': None, 'args': ('--train_data', 'exercise_6/data_train.csv:latest', '--model_config', '/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/multirun/2025-10-17/21-13-40/39/random_forest_config.json'), 'state': 'running', 'program': '/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py', 'codePathLocal': 'run.py', 'codePath': 'run.py', 'git': {'remote': 'git@github.com:DCook-WGU/nd0821-c2-build-model-workflow-exercises.git', 'commit': None}, 'email': 'dcoo230@wgu.edu', 'root': '/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest', 'host': '8d43fa3ea92d', 'username': 'root', 'executable': '/opt/miniconda/envs/mlflow-d2c47ea17a88db8ed7250487b447db94edbf3f97/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3299.993, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}, {'current': 3299.993, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 28.37932586669922}}, 'memory': {'total': 31.294132232666016}}
+2025-10-17 21:17:57,404 INFO    HandlerThread:79415 [system_monitor.py:probe():224] Finished collecting system info
+2025-10-17 21:17:57,404 INFO    HandlerThread:79415 [system_monitor.py:probe():227] Publishing system info
+2025-10-17 21:17:57,405 DEBUG   HandlerThread:79415 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-10-17 21:17:58,049 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/conda-environment.yaml
+2025-10-17 21:17:59,375 DEBUG   HandlerThread:79415 [system_info.py:_save_conda():219] Saving conda packages done
+2025-10-17 21:17:59,379 INFO    HandlerThread:79415 [system_monitor.py:probe():229] Finished publishing system info
+2025-10-17 21:17:59,384 DEBUG   SenderThread:79415 [sender.py:send():378] send: files
+2025-10-17 21:17:59,384 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-10-17 21:17:59,437 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: python_packages
+2025-10-17 21:17:59,438 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: python_packages
+2025-10-17 21:17:59,440 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: internal_messages
+2025-10-17 21:17:59,441 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: stop_status
+2025-10-17 21:17:59,443 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: stop_status
+2025-10-17 21:17:59,645 DEBUG   SenderThread:79415 [sender.py:send():378] send: telemetry
+2025-10-17 21:17:59,792 INFO    wandb-upload_0:79415 [upload_job.py:push():131] Uploaded file /tmp/tmp0vxy0igewandb/jaa9asx3-wandb-metadata.json
+2025-10-17 21:18:00,061 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/conda-environment.yaml
+2025-10-17 21:18:00,063 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/wandb-metadata.json
+2025-10-17 21:18:00,065 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/requirements.txt
+2025-10-17 21:18:00,066 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/output.log
+2025-10-17 21:18:00,072 DEBUG   SenderThread:79415 [sender.py:send():378] send: use_artifact
+2025-10-17 21:18:00,572 DEBUG   SenderThread:79415 [sender.py:send():378] send: config
+2025-10-17 21:18:01,573 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: status_report
+2025-10-17 21:18:02,075 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/output.log
+2025-10-17 21:18:06,573 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: status_report
+2025-10-17 21:18:08,364 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: summary_record
+2025-10-17 21:18:08,368 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-10-17 21:18:09,131 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/wandb-summary.json
+2025-10-17 21:18:10,139 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/output.log
+2025-10-17 21:18:10,747 DEBUG   SenderThread:79415 [sender.py:send():378] send: files
+2025-10-17 21:18:10,747 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file media/images/feature_importance_0_76c48c2c1c103d1ac565.png with policy now
+2025-10-17 21:18:10,761 DEBUG   SenderThread:79415 [sender.py:send():378] send: files
+2025-10-17 21:18:10,761 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: partial_history
+2025-10-17 21:18:10,762 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file media/images/confusion_matrix_0_21511b4396d5f4df33e1.png with policy now
+2025-10-17 21:18:10,776 DEBUG   SenderThread:79415 [sender.py:send():378] send: history
+2025-10-17 21:18:10,777 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: summary_record
+2025-10-17 21:18:10,782 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-10-17 21:18:10,785 DEBUG   SenderThread:79415 [sender.py:send():378] send: exit
+2025-10-17 21:18:10,785 INFO    SenderThread:79415 [sender.py:send_exit():585] handling exit code: 0
+2025-10-17 21:18:10,786 INFO    SenderThread:79415 [sender.py:send_exit():587] handling runtime: 13
+2025-10-17 21:18:10,797 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-10-17 21:18:10,799 INFO    SenderThread:79415 [sender.py:send_exit():593] send defer
+2025-10-17 21:18:10,800 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,800 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 0
+2025-10-17 21:18:10,801 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,801 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-10-17 21:18:10,801 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 1
+2025-10-17 21:18:10,802 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,802 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 1
+2025-10-17 21:18:10,803 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,803 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-10-17 21:18:10,803 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 2
+2025-10-17 21:18:10,804 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,804 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 2
+2025-10-17 21:18:10,804 INFO    HandlerThread:79415 [system_monitor.py:finish():203] Stopping system monitor
+2025-10-17 21:18:10,805 DEBUG   SystemMonitor:79415 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-10-17 21:18:10,806 DEBUG   SystemMonitor:79415 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-10-17 21:18:10,806 INFO    HandlerThread:79415 [interfaces.py:finish():202] Joined cpu monitor
+2025-10-17 21:18:10,806 DEBUG   SystemMonitor:79415 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-10-17 21:18:10,807 INFO    HandlerThread:79415 [interfaces.py:finish():202] Joined disk monitor
+2025-10-17 21:18:10,808 INFO    HandlerThread:79415 [interfaces.py:finish():202] Joined memory monitor
+2025-10-17 21:18:10,809 INFO    HandlerThread:79415 [interfaces.py:finish():202] Joined network monitor
+2025-10-17 21:18:10,810 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,810 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-10-17 21:18:10,810 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 3
+2025-10-17 21:18:10,810 DEBUG   SenderThread:79415 [sender.py:send():378] send: stats
+2025-10-17 21:18:10,811 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,811 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 3
+2025-10-17 21:18:10,812 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,812 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-10-17 21:18:10,813 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 4
+2025-10-17 21:18:10,813 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,813 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 4
+2025-10-17 21:18:10,814 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,814 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-10-17 21:18:10,814 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 5
+2025-10-17 21:18:10,815 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,815 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 5
+2025-10-17 21:18:10,816 DEBUG   SenderThread:79415 [sender.py:send():378] send: summary
+2025-10-17 21:18:10,819 INFO    SenderThread:79415 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-10-17 21:18:10,821 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,821 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-10-17 21:18:10,821 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 6
+2025-10-17 21:18:10,822 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:10,822 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 6
+2025-10-17 21:18:10,823 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:10,823 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-10-17 21:18:10,827 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: status_report
+2025-10-17 21:18:11,040 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 7
+2025-10-17 21:18:11,040 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:11,040 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 7
+2025-10-17 21:18:11,041 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:11,041 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-10-17 21:18:11,075 INFO    wandb-upload_0:79415 [upload_job.py:push():131] Uploaded file /tmp/tmp0vxy0igewandb/rapff4z7-media/images/feature_importance_0_76c48c2c1c103d1ac565.png
+2025-10-17 21:18:11,173 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/wandb-summary.json
+2025-10-17 21:18:11,175 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/config.yaml
+2025-10-17 21:18:11,176 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/media/images/confusion_matrix_0_21511b4396d5f4df33e1.png
+2025-10-17 21:18:11,194 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/media/images/feature_importance_0_76c48c2c1c103d1ac565.png
+2025-10-17 21:18:11,201 INFO    wandb-upload_1:79415 [upload_job.py:push():131] Uploaded file /tmp/tmp0vxy0igewandb/ftxsr9c0-media/images/confusion_matrix_0_21511b4396d5f4df33e1.png
+2025-10-17 21:18:11,205 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/media
+2025-10-17 21:18:11,207 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_created():271] file/dir created: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/media/images
+2025-10-17 21:18:11,544 INFO    wandb-upload_1:79415 [upload_job.py:push():131] Uploaded file /tmp/tmp0vxy0igewandb/rkwqowo8-media/images/feature_importance_0_76c48c2c1c103d1ac565.png
+2025-10-17 21:18:11,568 INFO    wandb-upload_0:79415 [upload_job.py:push():131] Uploaded file /tmp/tmp0vxy0igewandb/772v4zrr-media/images/confusion_matrix_0_21511b4396d5f4df33e1.png
+2025-10-17 21:18:11,663 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 8
+2025-10-17 21:18:11,663 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:11,663 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 8
+2025-10-17 21:18:11,664 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:11,664 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-10-17 21:18:11,664 INFO    SenderThread:79415 [job_builder.py:build():298] Attempting to build job artifact
+2025-10-17 21:18:11,671 INFO    SenderThread:79415 [job_builder.py:_get_source_type():439] no source found
+2025-10-17 21:18:11,671 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 9
+2025-10-17 21:18:11,671 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:11,672 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 9
+2025-10-17 21:18:11,672 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:11,672 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-10-17 21:18:11,673 INFO    SenderThread:79415 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-10-17 21:18:11,766 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: poll_exit
+2025-10-17 21:18:12,203 INFO    Thread-12 :79415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/output.log
+2025-10-17 21:18:12,233 INFO    SenderThread:79415 [dir_watcher.py:finish():388] scan: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files
+2025-10-17 21:18:12,236 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/conda-environment.yaml conda-environment.yaml
+2025-10-17 21:18:12,243 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/config.yaml config.yaml
+2025-10-17 21:18:12,255 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/output.log output.log
+2025-10-17 21:18:12,264 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/requirements.txt requirements.txt
+2025-10-17 21:18:12,281 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/wandb-metadata.json wandb-metadata.json
+2025-10-17 21:18:12,281 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/wandb-summary.json wandb-summary.json
+2025-10-17 21:18:12,304 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/media/images/confusion_matrix_0_21511b4396d5f4df33e1.png media/images/confusion_matrix_0_21511b4396d5f4df33e1.png
+2025-10-17 21:18:12,305 INFO    SenderThread:79415 [dir_watcher.py:finish():402] scan save: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/media/images/feature_importance_0_76c48c2c1c103d1ac565.png media/images/feature_importance_0_76c48c2c1c103d1ac565.png
+2025-10-17 21:18:12,305 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 10
+2025-10-17 21:18:12,305 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: poll_exit
+2025-10-17 21:18:12,305 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:12,306 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 10
+2025-10-17 21:18:12,307 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:12,307 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-10-17 21:18:12,307 INFO    SenderThread:79415 [file_pusher.py:finish():172] shutting down file pusher
+2025-10-17 21:18:12,514 INFO    wandb-upload_1:79415 [upload_job.py:push():131] Uploaded file /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/conda-environment.yaml
+2025-10-17 21:18:12,548 INFO    wandb-upload_0:79415 [upload_job.py:push():131] Uploaded file /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/config.yaml
+2025-10-17 21:18:12,652 INFO    wandb-upload_2:79415 [upload_job.py:push():131] Uploaded file /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/output.log
+2025-10-17 21:18:12,683 INFO    wandb-upload_3:79415 [upload_job.py:push():131] Uploaded file /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/requirements.txt
+2025-10-17 21:18:12,746 INFO    wandb-upload_4:79415 [upload_job.py:push():131] Uploaded file /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/files/wandb-summary.json
+2025-10-17 21:18:12,767 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: poll_exit
+2025-10-17 21:18:12,767 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: poll_exit
+2025-10-17 21:18:12,947 INFO    Thread-11 :79415 [sender.py:transition_state():613] send defer: 11
+2025-10-17 21:18:12,948 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:12,948 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 11
+2025-10-17 21:18:12,949 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:12,949 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-10-17 21:18:12,950 INFO    SenderThread:79415 [file_pusher.py:join():178] waiting for file pusher
+2025-10-17 21:18:12,950 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 12
+2025-10-17 21:18:12,951 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:12,951 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 12
+2025-10-17 21:18:12,952 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:12,952 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-10-17 21:18:12,952 INFO    SenderThread:79415 [file_stream.py:finish():595] file stream finish called
+2025-10-17 21:18:13,342 INFO    SenderThread:79415 [file_stream.py:finish():599] file stream finish is done
+2025-10-17 21:18:13,342 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 13
+2025-10-17 21:18:13,343 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:13,343 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 13
+2025-10-17 21:18:13,343 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:13,344 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-10-17 21:18:13,344 INFO    SenderThread:79415 [sender.py:transition_state():613] send defer: 14
+2025-10-17 21:18:13,345 DEBUG   SenderThread:79415 [sender.py:send():378] send: final
+2025-10-17 21:18:13,345 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: defer
+2025-10-17 21:18:13,345 DEBUG   SenderThread:79415 [sender.py:send():378] send: footer
+2025-10-17 21:18:13,346 INFO    HandlerThread:79415 [handler.py:handle_request_defer():172] handle defer: 14
+2025-10-17 21:18:13,347 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: defer
+2025-10-17 21:18:13,348 INFO    SenderThread:79415 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-10-17 21:18:13,349 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: poll_exit
+2025-10-17 21:18:13,349 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: poll_exit
+2025-10-17 21:18:13,350 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: server_info
+2025-10-17 21:18:13,350 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: get_summary
+2025-10-17 21:18:13,351 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: poll_exit
+2025-10-17 21:18:13,351 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: sampled_history
+2025-10-17 21:18:13,352 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: poll_exit
+2025-10-17 21:18:13,353 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: internal_messages
+2025-10-17 21:18:13,353 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: server_info
+2025-10-17 21:18:13,357 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: job_info
+2025-10-17 21:18:13,447 DEBUG   SenderThread:79415 [sender.py:send_request():405] send_request: job_info
+2025-10-17 21:18:13,447 INFO    MainThread:79415 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-10-17 21:18:13,448 INFO    MainThread:79415 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-10-17 21:18:13,448 INFO    MainThread:79415 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-10-17 21:18:13,449 DEBUG   HandlerThread:79415 [handler.py:handle_request():146] handle_request: shutdown
+2025-10-17 21:18:13,449 INFO    HandlerThread:79415 [handler.py:finish():869] shutting down handler
+2025-10-17 21:18:14,358 INFO    WriterThread:79415 [datastore.py:close():296] close: /app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/wandb/run-20251017_211756-zgoy8mua/run-zgoy8mua.wandb
+2025-10-17 21:18:14,447 INFO    SenderThread:79415 [sender.py:finish():1521] shutting down sender
+2025-10-17 21:18:14,448 INFO    SenderThread:79415 [file_pusher.py:finish():172] shutting down file pusher
+2025-10-17 21:18:14,448 INFO    SenderThread:79415 [file_pusher.py:join():178] waiting for file pusher

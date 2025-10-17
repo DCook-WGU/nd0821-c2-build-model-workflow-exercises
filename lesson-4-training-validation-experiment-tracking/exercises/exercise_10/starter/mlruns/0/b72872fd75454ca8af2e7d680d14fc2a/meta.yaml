@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/b72872fd75454ca8af2e7d680d14fc2a/artifacts
+end_time: 1760734303169
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b72872fd75454ca8af2e7d680d14fc2a
+run_name: intrigued-bee-704
+run_uuid: b72872fd75454ca8af2e7d680d14fc2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760733949294
+status: 4
+tags: []
+user_id: root

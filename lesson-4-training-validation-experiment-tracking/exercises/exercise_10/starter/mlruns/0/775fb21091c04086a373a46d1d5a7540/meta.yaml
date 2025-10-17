@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/775fb21091c04086a373a46d1d5a7540/artifacts
+end_time: 1760734994997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 775fb21091c04086a373a46d1d5a7540
+run_name: nimble-grouse-890
+run_uuid: 775fb21091c04086a373a46d1d5a7540
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760734984654
+status: 4
+tags: []
+user_id: root

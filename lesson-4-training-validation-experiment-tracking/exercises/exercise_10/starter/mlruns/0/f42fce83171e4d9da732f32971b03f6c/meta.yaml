@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/f42fce83171e4d9da732f32971b03f6c/artifacts
+end_time: 1760735918313
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f42fce83171e4d9da732f32971b03f6c
+run_name: righteous-roo-778
+run_uuid: f42fce83171e4d9da732f32971b03f6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735885103
+status: 3
+tags: []
+user_id: root

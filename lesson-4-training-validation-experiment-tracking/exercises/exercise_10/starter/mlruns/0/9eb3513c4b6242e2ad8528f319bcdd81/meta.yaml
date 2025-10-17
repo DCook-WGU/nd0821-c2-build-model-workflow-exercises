@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/9eb3513c4b6242e2ad8528f319bcdd81/artifacts
+end_time: 1760735829239
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9eb3513c4b6242e2ad8528f319bcdd81
+run_name: able-whale-780
+run_uuid: 9eb3513c4b6242e2ad8528f319bcdd81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735803178
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/83efebf048ba47d9a80e15a432e21f97/artifacts
+end_time: 1760735594201
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83efebf048ba47d9a80e15a432e21f97
+run_name: caring-auk-790
+run_uuid: 83efebf048ba47d9a80e15a432e21f97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735557824
+status: 3
+tags: []
+user_id: root

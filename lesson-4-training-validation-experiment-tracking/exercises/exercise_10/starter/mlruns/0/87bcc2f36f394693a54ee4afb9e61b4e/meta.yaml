@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/87bcc2f36f394693a54ee4afb9e61b4e/artifacts
+end_time: 1760735744158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87bcc2f36f394693a54ee4afb9e61b4e
+run_name: unique-moose-922
+run_uuid: 87bcc2f36f394693a54ee4afb9e61b4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735718664
+status: 3
+tags: []
+user_id: root

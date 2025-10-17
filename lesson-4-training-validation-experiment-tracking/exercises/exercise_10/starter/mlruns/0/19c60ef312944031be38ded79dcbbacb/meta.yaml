@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/19c60ef312944031be38ded79dcbbacb/artifacts
+end_time: 1760735746642
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19c60ef312944031be38ded79dcbbacb
+run_name: handsome-yak-665
+run_uuid: 19c60ef312944031be38ded79dcbbacb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735720991
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/03eb15edc7f74f9da575f0411a63c16a/artifacts
+end_time: 1760735798599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03eb15edc7f74f9da575f0411a63c16a
+run_name: debonair-goat-591
+run_uuid: 03eb15edc7f74f9da575f0411a63c16a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735768263
+status: 3
+tags: []
+user_id: root

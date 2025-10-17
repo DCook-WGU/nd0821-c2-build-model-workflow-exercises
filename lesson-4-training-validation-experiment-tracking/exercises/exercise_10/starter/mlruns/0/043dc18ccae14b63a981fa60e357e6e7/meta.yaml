@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/043dc18ccae14b63a981fa60e357e6e7/artifacts
+end_time: 1760735392840
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 043dc18ccae14b63a981fa60e357e6e7
+run_name: polite-shrew-362
+run_uuid: 043dc18ccae14b63a981fa60e357e6e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735362372
+status: 3
+tags: []
+user_id: root

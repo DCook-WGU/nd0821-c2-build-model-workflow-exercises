@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/ef65ad3f5f924097b1364549c018d95c/artifacts
+end_time: 1760733882758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef65ad3f5f924097b1364549c018d95c
+run_name: monumental-smelt-737
+run_uuid: ef65ad3f5f924097b1364549c018d95c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760733872845
+status: 4
+tags: []
+user_id: root

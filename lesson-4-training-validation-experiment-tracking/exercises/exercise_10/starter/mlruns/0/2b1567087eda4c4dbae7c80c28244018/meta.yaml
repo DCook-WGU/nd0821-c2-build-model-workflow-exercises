@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/2b1567087eda4c4dbae7c80c28244018/artifacts
+end_time: 1760735267586
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2b1567087eda4c4dbae7c80c28244018
+run_name: colorful-grub-862
+run_uuid: 2b1567087eda4c4dbae7c80c28244018
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735102395
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,6 @@
+2025-10-17 21:14:20,319 Downloading and reading test artifact
+2025-10-17 21:14:21,427 Extracting target from dataframe
+2025-10-17 21:14:21,431 Splitting train/val
+2025-10-17 21:14:21,475 Setting up pipeline
+2025-10-17 21:14:21,481 Fitting
+2025-10-17 21:14:23,274 Scoring

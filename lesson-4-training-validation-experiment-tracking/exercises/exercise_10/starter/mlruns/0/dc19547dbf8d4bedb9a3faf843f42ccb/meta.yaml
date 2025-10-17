@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/dc19547dbf8d4bedb9a3faf843f42ccb/artifacts
+end_time: 1760734303751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc19547dbf8d4bedb9a3faf843f42ccb
+run_name: incongruous-stag-943
+run_uuid: dc19547dbf8d4bedb9a3faf843f42ccb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760733943272
+status: 4
+tags: []
+user_id: root

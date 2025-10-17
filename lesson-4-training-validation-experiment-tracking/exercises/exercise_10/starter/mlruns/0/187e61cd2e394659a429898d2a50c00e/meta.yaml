@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/187e61cd2e394659a429898d2a50c00e/artifacts
+end_time: 1760735889798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 187e61cd2e394659a429898d2a50c00e
+run_name: bold-koi-707
+run_uuid: 187e61cd2e394659a429898d2a50c00e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735857764
+status: 3
+tags: []
+user_id: root

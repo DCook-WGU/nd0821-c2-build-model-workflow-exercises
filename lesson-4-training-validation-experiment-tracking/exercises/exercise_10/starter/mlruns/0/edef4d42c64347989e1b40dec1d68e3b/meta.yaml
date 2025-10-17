@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/edef4d42c64347989e1b40dec1d68e3b/artifacts
+end_time: 1760735672414
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edef4d42c64347989e1b40dec1d68e3b
+run_name: defiant-stork-802
+run_uuid: edef4d42c64347989e1b40dec1d68e3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735650808
+status: 3
+tags: []
+user_id: root

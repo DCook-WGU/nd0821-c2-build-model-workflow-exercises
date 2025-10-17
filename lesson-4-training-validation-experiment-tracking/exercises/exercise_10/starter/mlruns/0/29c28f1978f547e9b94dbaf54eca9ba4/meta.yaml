@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/29c28f1978f547e9b94dbaf54eca9ba4/artifacts
+end_time: 1760735765842
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29c28f1978f547e9b94dbaf54eca9ba4
+run_name: bold-wolf-845
+run_uuid: 29c28f1978f547e9b94dbaf54eca9ba4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735744597
+status: 3
+tags: []
+user_id: root

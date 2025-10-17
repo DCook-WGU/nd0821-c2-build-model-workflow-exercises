@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/613f2e47585d41fb9330108b7280a498/artifacts
+end_time: 1760735929336
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 613f2e47585d41fb9330108b7280a498
+run_name: abrasive-sponge-382
+run_uuid: 613f2e47585d41fb9330108b7280a498
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735890189
+status: 3
+tags: []
+user_id: root

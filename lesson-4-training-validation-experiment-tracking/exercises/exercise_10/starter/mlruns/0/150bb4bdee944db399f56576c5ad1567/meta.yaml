@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/150bb4bdee944db399f56576c5ad1567/artifacts
+end_time: 1760735744631
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 150bb4bdee944db399f56576c5ad1567
+run_name: treasured-gnat-310
+run_uuid: 150bb4bdee944db399f56576c5ad1567
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735720991
+status: 3
+tags: []
+user_id: root

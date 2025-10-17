@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/0d49c70cf9e04ee8951c608070511299/artifacts
+end_time: 1760735802596
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d49c70cf9e04ee8951c608070511299
+run_name: defiant-wolf-514
+run_uuid: 0d49c70cf9e04ee8951c608070511299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760735768747
+status: 3
+tags: []
+user_id: root
