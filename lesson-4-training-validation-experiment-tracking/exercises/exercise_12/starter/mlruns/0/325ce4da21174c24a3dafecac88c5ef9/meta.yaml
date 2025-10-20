@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/325ce4da21174c24a3dafecac88c5ef9/artifacts
+end_time: 1760984128271
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 325ce4da21174c24a3dafecac88c5ef9
+run_name: fun-foal-827
+run_uuid: 325ce4da21174c24a3dafecac88c5ef9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760984073692
+status: 3
+tags: []
+user_id: root

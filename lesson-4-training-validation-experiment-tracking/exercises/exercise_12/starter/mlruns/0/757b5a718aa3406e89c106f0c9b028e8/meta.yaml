@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/757b5a718aa3406e89c106f0c9b028e8/artifacts
+end_time: 1760981611592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 757b5a718aa3406e89c106f0c9b028e8
+run_name: peaceful-worm-541
+run_uuid: 757b5a718aa3406e89c106f0c9b028e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760981605384
+status: 4
+tags: []
+user_id: root

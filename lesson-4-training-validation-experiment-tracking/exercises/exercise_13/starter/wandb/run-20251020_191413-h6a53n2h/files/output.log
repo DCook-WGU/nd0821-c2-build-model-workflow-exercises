@@ -1,0 +1,11 @@
+
+2025-10-20 19:14:17,743 Downloading and reading test artifact
+2025-10-20 19:14:19,598 Extracting target from dataframe
+2025-10-20 19:14:19,603 Downloading and reading the exported model
+[34m[1mwandb[39m[22m:   6 of 6 files downloaded.
+Traceback (most recent call last):
+  File "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 104, in <module>
+    go(args)
+  File "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 43, in go
+    pred_proba = pipe.pred_proba(X_test)
+AttributeError: 'Pipeline' object has no attribute 'pred_proba'

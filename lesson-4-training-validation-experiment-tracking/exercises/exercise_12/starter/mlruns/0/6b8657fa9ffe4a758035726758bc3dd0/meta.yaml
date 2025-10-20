@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/6b8657fa9ffe4a758035726758bc3dd0/artifacts
+end_time: 1760984127761
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b8657fa9ffe4a758035726758bc3dd0
+run_name: valuable-steed-363
+run_uuid: 6b8657fa9ffe4a758035726758bc3dd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760984080973
+status: 3
+tags: []
+user_id: root

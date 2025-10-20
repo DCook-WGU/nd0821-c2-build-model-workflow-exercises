@@ -1,0 +1,23 @@
+
+2025-10-20 17:46:21,364 Downloading and reading test artifact
+2025-10-20 17:46:23,601 Extracting target from dataframe
+2025-10-20 17:46:23,603 Splitting train/val
+2025-10-20 17:46:23,639 Setting up pipeline
+2025-10-20 17:46:23,651 Fitting
+2025-10-20 17:46:39,786 Scoring
+Traceback (most recent call last):
+  File "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 247, in <module>
+    go(args)
+  File "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 64, in go
+    export_model(run, pipe, X_val, pred, args.export_artifact)
+  File "/app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 104, in export_model
+    signature = infer_signature(X_val, val_pred)
+  File "/opt/miniconda/envs/mlflow-eebe31b8ed0cf5ef00d6c5bafa827a0ea264a7e5/lib/python3.10/site-packages/mlflow/models/signature.py", line 212, in infer_signature
+    inputs = _infer_schema(model_input) if model_input is not None else None
+  File "/opt/miniconda/envs/mlflow-eebe31b8ed0cf5ef00d6c5bafa827a0ea264a7e5/lib/python3.10/site-packages/mlflow/types/utils.py", line 135, in _infer_schema
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/opt/miniconda/envs/mlflow-eebe31b8ed0cf5ef00d6c5bafa827a0ea264a7e5/lib/python3.10/site-packages/mlflow/types/utils.py", line 135, in <listcomp>
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/opt/miniconda/envs/mlflow-eebe31b8ed0cf5ef00d6c5bafa827a0ea264a7e5/lib/python3.10/site-packages/mlflow/types/utils.py", line 293, in _infer_pandas_column
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Unable to map 'object' type to MLflow DataType. object can be mapped iff all values have identical data type which is one of (string, (bytes or byterray),  int, float).

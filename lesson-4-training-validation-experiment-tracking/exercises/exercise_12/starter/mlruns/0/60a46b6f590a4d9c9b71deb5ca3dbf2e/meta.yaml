@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/60a46b6f590a4d9c9b71deb5ca3dbf2e/artifacts
+end_time: 1760982507908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60a46b6f590a4d9c9b71deb5ca3dbf2e
+run_name: peaceful-gnu-42
+run_uuid: 60a46b6f590a4d9c9b71deb5ca3dbf2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982463885
+status: 4
+tags: []
+user_id: root

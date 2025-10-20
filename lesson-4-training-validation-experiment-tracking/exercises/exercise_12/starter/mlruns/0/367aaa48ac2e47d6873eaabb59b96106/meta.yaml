@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/367aaa48ac2e47d6873eaabb59b96106/artifacts
+end_time: 1760982406284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 367aaa48ac2e47d6873eaabb59b96106
+run_name: amusing-tern-223
+run_uuid: 367aaa48ac2e47d6873eaabb59b96106
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982231107
+status: 4
+tags: []
+user_id: root

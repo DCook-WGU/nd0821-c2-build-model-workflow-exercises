@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/bd45f494555a4cfaa61c27889279ba5b/artifacts
+end_time: 1760982405686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd45f494555a4cfaa61c27889279ba5b
+run_name: serious-fawn-29
+run_uuid: bd45f494555a4cfaa61c27889279ba5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982237556
+status: 4
+tags: []
+user_id: root

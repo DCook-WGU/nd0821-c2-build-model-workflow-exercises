@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/d6bb77174f1c4566b05b3290ed84323d/artifacts
+end_time: 1760981795701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6bb77174f1c4566b05b3290ed84323d
+run_name: mercurial-grouse-823
+run_uuid: d6bb77174f1c4566b05b3290ed84323d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760981789757
+status: 4
+tags: []
+user_id: root

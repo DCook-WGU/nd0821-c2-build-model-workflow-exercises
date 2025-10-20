@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/56dd1398ae3d45b1a286707956b4250d/artifacts
+end_time: 1760981548966
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56dd1398ae3d45b1a286707956b4250d
+run_name: skillful-dog-560
+run_uuid: 56dd1398ae3d45b1a286707956b4250d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760981542478
+status: 4
+tags: []
+user_id: root

@@ -7,7 +7,8 @@ from omegaconf import DictConfig, OmegaConf
 
 
 # This automatically reads in the configuration
-@hydra.main(config_path='.', config_name='config')
+#@hydra.main(config_path='.', config_name='config')
+@hydra.main(version_base=None, config_path='.', config_name='config') # Fixes the version base warning
 def go(config: DictConfig):
 
     # Setup the wandb experiment. All runs will be grouped under this name

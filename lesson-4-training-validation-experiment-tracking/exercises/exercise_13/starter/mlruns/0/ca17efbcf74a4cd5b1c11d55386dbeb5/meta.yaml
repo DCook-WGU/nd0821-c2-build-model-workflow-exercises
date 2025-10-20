@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/ca17efbcf74a4cd5b1c11d55386dbeb5/artifacts
+end_time: 1760987758475
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca17efbcf74a4cd5b1c11d55386dbeb5
+run_name: unique-goat-37
+run_uuid: ca17efbcf74a4cd5b1c11d55386dbeb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760987735079
+status: 3
+tags: []
+user_id: root

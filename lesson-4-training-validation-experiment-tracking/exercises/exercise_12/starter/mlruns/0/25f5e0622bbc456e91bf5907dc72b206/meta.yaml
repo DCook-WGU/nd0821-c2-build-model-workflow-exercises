@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/25f5e0622bbc456e91bf5907dc72b206/artifacts
+end_time: 1760982760890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25f5e0622bbc456e91bf5907dc72b206
+run_name: fearless-mole-523
+run_uuid: 25f5e0622bbc456e91bf5907dc72b206
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982754678
+status: 4
+tags: []
+user_id: root

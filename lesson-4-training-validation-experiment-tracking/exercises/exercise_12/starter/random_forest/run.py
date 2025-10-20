@@ -101,7 +101,16 @@ def go(args):
 def export_model(run, pipe, X_val, val_pred, export_artifact):
 
     # Infer the signature of the model
-    signature = infer_signature(X_val, val_pred)
+    #signature = infer_signature(X_val, val_pred)
+
+    X_sig = X_val.copy()
+    obj_cols = X_sig.select_dtypes(include=["object"]).columns
+    # Use pandas "string" dtype so missing values are handled (NA) and MLflow can map consistently.
+    if len(obj_cols) > 0:
+        X_sig[obj_cols] = X_sig[obj_cols].astype("string")
+
+    signature = infer_signature(X_sig, val_pred)
+
 
     with tempfile.TemporaryDirectory() as temp_dir:
 
@@ -113,10 +122,26 @@ def export_model(run, pipe, X_val, val_pred, export_artifact):
         # examples (input_example=X_val.iloc[:2]), and use the CLOUDPICKLE serialization
         # format (mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE)
 
+        mlflow.sklearn.save_model(
+            pipe,
+            export_path,
+            serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
+            signature=signature,
+            input_example=X_val.iloc[:2],
+        )
+
         # Then upload the temp_dir directory as an artifact:
         # 1. create a wandb.Artifact instance called "artifact"
         # 2. add the temp directory using .add_dir
         # 3. log the artifact to the run
+
+        artifact = wandb.Artifact(            
+            export_artifact,
+            type="model_export",
+            description="Random Forest pipeline export"
+        )
+        artifact.add_dir(export_path)
+        run.log_artifact(artifact)
 
         # Make sure the artifact is uploaded before the temp dir
         # gets deleted

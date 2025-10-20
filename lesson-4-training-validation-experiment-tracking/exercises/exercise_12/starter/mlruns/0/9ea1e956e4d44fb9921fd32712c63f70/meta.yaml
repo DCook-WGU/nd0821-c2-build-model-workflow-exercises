@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/9ea1e956e4d44fb9921fd32712c63f70/artifacts
+end_time: 1760981304905
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ea1e956e4d44fb9921fd32712c63f70
+run_name: bemused-fawn-549
+run_uuid: 9ea1e956e4d44fb9921fd32712c63f70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760981191369
+status: 4
+tags: []
+user_id: root

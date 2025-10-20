@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/26d5a823b210436ca56ceec446a5b3ba/artifacts
+end_time: 1760982507243
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26d5a823b210436ca56ceec446a5b3ba
+run_name: rumbling-shad-220
+run_uuid: 26d5a823b210436ca56ceec446a5b3ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982470104
+status: 4
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/6c5cb89067cc4a1cbce899d781d1c5a5/artifacts
+end_time: 1760982970276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c5cb89067cc4a1cbce899d781d1c5a5
+run_name: traveling-rook-620
+run_uuid: 6c5cb89067cc4a1cbce899d781d1c5a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982902188
+status: 4
+tags: []
+user_id: root

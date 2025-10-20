@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/9395f3ff473a4717940fb65b3dda85ae/artifacts
+end_time: 1760982196005
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9395f3ff473a4717940fb65b3dda85ae
+run_name: sassy-gull-135
+run_uuid: 9395f3ff473a4717940fb65b3dda85ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982191488
+status: 4
+tags: []
+user_id: root

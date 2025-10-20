@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/b204660063834d659097fc2e876b8c39/artifacts
+end_time: 1760981353797
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b204660063834d659097fc2e876b8c39
+run_name: upbeat-grouse-703
+run_uuid: b204660063834d659097fc2e876b8c39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760981349585
+status: 4
+tags: []
+user_id: root

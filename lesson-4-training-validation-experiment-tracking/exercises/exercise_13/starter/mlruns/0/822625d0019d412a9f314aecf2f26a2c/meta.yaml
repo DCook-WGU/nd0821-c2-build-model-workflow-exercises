@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/822625d0019d412a9f314aecf2f26a2c/artifacts
+end_time: 1760987547342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 822625d0019d412a9f314aecf2f26a2c
+run_name: youthful-tern-382
+run_uuid: 822625d0019d412a9f314aecf2f26a2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760987445106
+status: 4
+tags: []
+user_id: root

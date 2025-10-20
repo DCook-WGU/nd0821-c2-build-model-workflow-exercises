@@ -1,0 +1,15 @@
+artifact_uri: file:///app/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/3a3e371040bd406ab7989425936726a8/artifacts
+end_time: 1760982149252
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a3e371040bd406ab7989425936726a8
+run_name: wistful-dolphin-307
+run_uuid: 3a3e371040bd406ab7989425936726a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760982023831
+status: 4
+tags: []
+user_id: root
